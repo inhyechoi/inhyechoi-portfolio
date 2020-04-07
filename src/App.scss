@@ -1,12 +1,10 @@
 .App {
     background-image: url("./assets/main-bg-mb.png");
     background-size: 100% 100%;
-}
-@media (min-width: 600px) {
-    .App {
+    @media (min-width: 600px) {
         background-image: url("./assets/main-bg-dk.png");
         background-size: 100% 100%;
-    }     
+    }
 }
 .App-logo {
   height: 40vmin;

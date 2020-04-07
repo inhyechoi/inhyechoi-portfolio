@@ -1,4 +1,5 @@
 import React from 'react';
+import Sound from 'react-sound';
 // import logo from './logo.svg';
 import menutext1 from './assets/main-menu-text-1.svg';
 import menutext2 from './assets/main-menu-text-2.svg';
@@ -11,7 +12,16 @@ import './variables.scss';
 
 function App() {
   return (
+   
     <div className="App">
+        <Sound
+            url="./assets/supermarioworld-titletheme.mp3"
+            playStatus={Sound.status.PLAYING}
+            playFromPosition={300 /* in milliseconds */}
+            // onLoading={this.handleSongLoading}
+            // onPlaying={this.handleSongPlaying}
+            // onFinishedPlaying={this.handleSongFinishedPlaying} 
+        />
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <div className="App-header-text-container">

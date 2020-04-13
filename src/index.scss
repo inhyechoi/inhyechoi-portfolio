@@ -1,0 +1,47 @@
+@import 'variables';
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  word-break: keep-all;
+}
+
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+li {
+  list-style: none;
+}
+.cf:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+body {
+  // height: 100vh;
+  font-family: $main-font;
+  color: $secondary-color;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

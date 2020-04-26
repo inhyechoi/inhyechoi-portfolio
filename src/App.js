@@ -1,54 +1,51 @@
 import React from 'react';
 import Sound from 'react-sound';
-// import logo from './logo.svg';
+import Topbar from './components/TopBar.js';
+import Menu from './components/Menu.js';
+import ReactDOM from 'react-dom';
+
 import maintitle from './assets/inhyechoi-main-text.svg';
-import menuselect from './assets/inhyechoi-main-menu-select.svg';
+
 import './App.scss';
+import './components/Menu.scss';
+import './components/TopBar.scss';
 import './variables.scss';
 
-function App() {
+//for offset position
+
+const App = () => {
+    // const componentDidMount = () => {
+    //     var rect = ReactDOM.findDOMNode(this)
+    //       .getBoundingClientRect()
+    // }
   return (
-   
     <div className="App">
         <Sound
-            url="./assets/inhyechoi-main-bgm.mp3"
-            playStatus={Sound.status.PLAYING}
-            playFromPosition={300 /* in milliseconds */}
-            // onLoading={this.handleSongLoading}
-            // onPlaying={this.handleSongPlaying}
-            // onFinishedPlaying={this.handleSongFinishedPlaying} 
+        url="./assets/inhyechoi-main-bgm.mp3"
+        playStatus={Sound.status.PLAYING}
+        playFromPosition={300 /* in milliseconds */}
+        // onLoading={this.handleSongLoading}
+        // onPlaying={this.handleSongPlaying}
+        // onFinishedPlaying={this.handleSongFinishedPlaying}
         />
-      <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <div className="App-header-text-container">
-            <img src={maintitle} className="main-title" alt="" style={{ width: '100%' }}/>
+        <Topbar />
+        <div className="middle">
+            <img src={maintitle} className="main-title" alt="" style={{ width: "100%" }}/>
+        </div>
+        <form className="namebox">
+            <p>Welcome, what is your name?</p>
             <div>
-                <div className="main-menu-text-wrapper">
-                    <img src={menuselect} className="menu-select" alt="" />
-                    <div className="main-menu-text">
-                        <p>1.projects</p>
-                        <p>2.about me</p>
-                    </div>
-                </div>
+                <input className="textbox" type="name" placeholder="Your name"></input>
+                <input className='submitbox' type='image' src={require('./assets/icon-mushroom.png')} alt='Submit'/>
             </div>
-
-
-            {/* <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            Learn React
-            </a> */}
-            <div className="main-page-copyright">
-                <p>© 2019 inhyechoi</p>
-            </div>
-            </div>    
-      </header>
-
-    </div>
+        </form>
+        <Menu />
+          <div className="copyright">
+            <p>© 2019 inhyechoi</p>
+          </div>
+        </div>
   );
 }
 
-export default App;
+export default App

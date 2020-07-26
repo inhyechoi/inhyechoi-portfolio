@@ -5,12 +5,24 @@
         "category": "web development",
         "background": "",
         "date": "Feb 2020",
-        "shortDescription": "after party ticket web development project",
+        "shortDescription": "after party ticket website development project",
         "url": "https://undefinedteam-jjent-changmo.ca/",
         "description": "",
         "desktop": [],
         "mobile": [
         ]
-        }
+        },
+        {
+            "title": "SiteMax Systems",
+            "category": "web development",
+            "background": "",
+            "date": "2018-2019",
+            "shortDescription": "construction software company website development and mangement",
+            "url": "https://undefinedteam-jjent-changmo.ca/",
+            "description": "",
+            "desktop": [],
+            "mobile": [
+            ]
+            }
     ]
 }

@@ -2,13 +2,18 @@ import React from 'react';
 import Sound from 'react-sound';
 import Topbar from './components/TopBar.js';
 import Menu from './components/Menu.js';
-import ReactDOM from 'react-dom';
+// import Projectsmenu from "./ProjectsMenu";
+// import ReactDOM from 'react-dom'; 
+import { projects } from './data.json';  
+
 
 import maintitle from './assets/inhyechoi-main-text.svg';
 
 import './App.scss';
-import './components/Menu.scss';
 import './components/TopBar.scss';
+import './components/Menu.scss';
+import './components/Projects.scss';
+import './components/ProjectsMenu.scss';
 import './variables.scss';
 
 //for offset position

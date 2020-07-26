@@ -1,10 +1,9 @@
 import React from 'react';
-import Sound from 'react-sound';
 import Topbar from './components/TopBar.js';
 import Menu from './components/Menu.js';
 // import Projectsmenu from "./ProjectsMenu";
 // import ReactDOM from 'react-dom'; 
-import { projects } from './data.json';  
+// import { projects } from './data.json';  
 
 
 import maintitle from './assets/inhyechoi-main-text.svg';
@@ -25,14 +24,6 @@ const App = () => {
     // }
   return (
     <div className="App">
-        <Sound
-        url="./assets/inhyechoi-main-bgm.mp3"
-        playStatus={Sound.status.PLAYING}
-        playFromPosition={300 /* in milliseconds */}
-        // onLoading={this.handleSongLoading}
-        // onPlaying={this.handleSongPlaying}
-        // onFinishedPlaying={this.handleSongFinishedPlaying}
-        />
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Topbar />
         <div className="middle">

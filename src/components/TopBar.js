@@ -4,10 +4,7 @@ const TopBar = () => {
     return (
       <div className="topbar">
         <a href="/" className="logo">
-          <h1>
-            <span>Inhye</span>
-            <span>Choi</span>
-          </h1>
+            <img src={require('../assets/inhye-main-logo.svg')} alt="" style={{ width: "50%" }}/>
         </a>
         <div className="closebtn hover-target" style={{ display: "none" }}>
           <span className="arrow"></span>

@@ -12,7 +12,15 @@ const ProjectsMenu = () => {
     //     );
     //   });
     return (
-        <div>hello</div>
+        <div>
+            <button className="toggle-password hover-target">
+            Forgot password?
+            </button>
+            <button className="hover-target">
+            Sign-in
+            </button>
+        </div>
+
     );
 };
 export default ProjectsMenu

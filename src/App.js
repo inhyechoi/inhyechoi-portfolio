@@ -27,7 +27,7 @@ const App = () => {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Topbar />
         <div className="middle">
-            <img src={maintitle} className="main-title" alt="" style={{ width: "100%" }}/>
+            {/* <img src={maintitle} className="main-title" alt="" style={{ width: "100%" }}/> */}
         </div>
         <form className="namebox">
             <p>Welcome, what is your name?</p>
@@ -38,7 +38,7 @@ const App = () => {
         </form>
         <Menu />
           <div className="copyright">
-            <p>© 2019 inhyechoi</p>
+            {/* <p>© 2020 Inhyechoi Vancouver</p> */}
           </div>
         </div>
   );

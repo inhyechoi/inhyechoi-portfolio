@@ -6,7 +6,7 @@ import Menu from './components/Menu.js';
 // import { projects } from './data.json';  
 
 
-import maintitle from './assets/inhyechoi-main-text.svg';
+// import maintitle from './assets/inhyechoi-main-text.svg';
 
 import './App.scss';
 import './components/TopBar.scss';

@@ -1,12 +1,12 @@
 {
     "projects": [
         {
-        "title": "JJ Entertainment",
-        "category": "web development",
+        "title": "Undefinedteam",
+        "category": "frontend development",
         "background": "",
         "date": "Feb 2020",
-        "shortDescription": "after party ticket website development project",
-        "url": "https://undefinedteam-jjent-changmo.ca/",
+        "shortDescription": "web design agency lead development and project management",
+        "url": "https://www.undefinedteam.com/",
         "description": "",
         "desktop": [],
         "mobile": [
@@ -14,11 +14,11 @@
         },
         {
             "title": "SiteMax Systems",
-            "category": "web development",
+            "category": "frontend development",
             "background": "",
             "date": "2018-2019",
-            "shortDescription": "construction software company website development and mangement",
-            "url": "https://undefinedteam-jjent-changmo.ca/",
+            "shortDescription": "construction software company frontend development and web management",
+            "url": "https://www.sitemaxsystems.com/",
             "description": "",
             "desktop": [],
             "mobile": [

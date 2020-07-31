@@ -1,0 +1,36 @@
+@import '../../variables.scss';
+
+.form-box{
+    display: flex;
+    margin-top: 1em;
+}
+
+.namebox{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.namebox p{
+    color: $text;
+    font-size: 0.8em;
+}
+
+.mainmenu li{
+    padding: 1em;
+}
+
+.textbox {
+    height: 32px;
+    width: 200px;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+
+.submitbox{
+    height: 30px;
+    width: 30px;
+    margin-left: 1.5em;
+}

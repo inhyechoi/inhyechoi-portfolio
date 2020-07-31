@@ -12,7 +12,7 @@ const ProjectsMenu = () => {
     //     );
     //   });
     return (
-        <div>
+        <div className="signin-box">
             <button className="toggle-password hover-target">
             Forgot password?
             </button>

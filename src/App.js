@@ -1,6 +1,7 @@
 import React from 'react';
 import Topbar from './components/TopBar.js';
 import Menu from './components/Menu.js';
+import { useForm } from "react-hook-form";
 // import Projectsmenu from "./ProjectsMenu";
 // import ReactDOM from 'react-dom'; 
 // import { projects } from './data.json';  
@@ -22,24 +23,26 @@ const App = () => {
     //     var rect = ReactDOM.findDOMNode(this)
     //       .getBoundingClientRect()
     // }
+    const { handleSubmit, errors } = useForm();
+    const onSubmit = (data)=>{
+        console.log(data)
+    };
+
   return (
     <div className="App">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Topbar />
         <div className="middle">
-            {/* <img src={maintitle} className="main-title" alt="" style={{ width: "100%" }}/> */}
         </div>
-        <form className="namebox">
+        <form onSubmit={handleSubmit(onSubmit)} className="namebox">
             <p>Welcome, what is your name?</p>
             <div>
-                <input className="textbox" type="name" placeholder="Your name"></input>
-                <input className='submitbox' type='image' src={require('./assets/icon-mushroom.png')} alt='Submit'/>
+                <input className="textbox" type="name" placeholder="Your name" aria-invalid={errors.name ? "true" : "false"} />
+                    {errors.name && errors.name.type === 'Yourname is required'}
+                    {errors.name && errors.name.type === 'Max length exceeded'}
+                <input className='submitbox' type="image" src={require('./assets/icon-mushroom.png')} alt='Submit'/>
             </div>
         </form>
         <Menu />
-          <div className="copyright">
-            {/* <p>© 2020 Inhyechoi Vancouver</p> */}
-          </div>
         </div>
   );
 }

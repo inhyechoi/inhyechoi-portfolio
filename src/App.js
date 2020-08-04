@@ -26,13 +26,15 @@ const App = () => {
     // }
 
     return (
-        <div className="App">
-            <Topbar />
-            <div className="middle">
+        <Router>
+            <div className="App">
+                <Topbar />
+                <div className="middle">
+                </div>
+                <Form />
+                <Menu />
             </div>
-            <Form />
-            <Menu />
-        </div>
+        </Router>
     );
 }
 

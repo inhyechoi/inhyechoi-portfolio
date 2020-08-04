@@ -18,7 +18,7 @@ const Form = () => {
         <div className="form-box">
         <input className="textbox" type="text" name="firstName" placeholder="Your name" ref={register({ required: true })}/>
             {errors.firstName && errors.firstName.type === "required" && (
-                <div className="error-name">This is required.</div>
+                <div className="error-name">Username is incorrect.<br />Try again!</div>
             )}
     {/* requiring assets directly from jsx if bundling code from the server-side*/}
         {/* <input className='submitbox' type="image" name="name" src={require('../../assets/icon-mushroom.png')} alt='Submit' ref={register} onSubmit={ e => {e.preventDefault();}}/>

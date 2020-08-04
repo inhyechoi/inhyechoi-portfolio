@@ -38,7 +38,12 @@
 }
 
 .error-name{
-    color: $primary-color;
-    font-size: 0.8em;
+    color: $error-color;
+    background-color: $error-bg-color;
+    border: 0.1em solid $error-color;
+    border-radius: 0.4em;
+    line-height: 1.8;
+    padding: 1.5em 1em;
+    font-size: 0.6em;
     margin-top: 10px;
 }

@@ -1,0 +1,11 @@
+@import '../../variables.scss';
+
+.mainmenu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.mainmenu-text{
+    color: $link;
+}

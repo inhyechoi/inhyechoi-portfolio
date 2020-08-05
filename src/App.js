@@ -1,5 +1,5 @@
 import React from 'react';
-import Topbar from './components/TopBar.js';
+import Header from './components/Header/Header.js';
 import Menu from './components/Menu.js';
 import Form from './components/LoginPage/Form.js';
 // import Projectsmenu from "./ProjectsMenu";
@@ -11,7 +11,7 @@ import Form from './components/LoginPage/Form.js';
 
 import './App.scss';
 import'./components/LoginPage/Form.scss';
-import './components/TopBar.scss';
+import './components/Header/Header.scss';
 import './components/Menu.scss';
 import './components/Projects.scss';
 import './components/ProjectsMenu.scss';
@@ -27,7 +27,7 @@ const App = () => {
 
     return (
         <div className="App">
-            <Topbar />
+            <Header />
             <div className="middle">
             </div>
             <Form />

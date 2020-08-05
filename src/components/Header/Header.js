@@ -2,9 +2,9 @@ import React from 'react';
 
 const Header = () => {
     return (
-      <div className={header}>
+      <div className="header">
         <a href="/" className="logo">
-            <img src={require('../assets/inhye-main-logo.svg')} alt="" style={{ width: "50%" }}/>
+            <img src={require('../../assets/inhye-main-logo.svg')} alt="" style={{ width: "50%" }}/>
         </a>
         <div className="closebtn hover-target" style={{ display: "none" }}>
           <span className="arrow"></span>

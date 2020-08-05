@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectsMenu from "./ProjectsMenu";
 
 const Menu = (props) => {
     // const projectLists = props.projects.map((project, i) => {
@@ -16,7 +15,6 @@ const Menu = (props) => {
             <ul>
                 {/* {projectLists} */}
             <li>
-                <ProjectsMenu />
             </li>
             </ul>
         </div>

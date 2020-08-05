@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 // import { projects } from './data.json';
 
-const ProjectsMenu = () => {
+const LoginBox = () => {
     // const projectsCategory = props.projects.category((project, i) => {
     //     return (
     //       <li key={i}>
@@ -12,15 +12,15 @@ const ProjectsMenu = () => {
     //     );
     //   });
     return (
-        <div className="signin-box">
+        <div className="loginBox">
             <button className="toggle-password hover-target">
-            Forgot password?
+                Forgot password?
             </button>
             <button className="hover-target">
-            Sign-in
+                Log-in
             </button>
         </div>
 
     );
 };
-export default ProjectsMenu
+export default LoginBox;

@@ -7,9 +7,11 @@ const Form = () => {
             firstName: ""
         }
     });
+
     const onSubmit = data =>{
         console.log(data);
     };
+    
     return(
         /* "handleSubmit" will validate input before invoking "onSubmit" */
         <div className="form">

@@ -2,7 +2,8 @@ import React from 'react';
 import Header from './components/Header/Header.js';
 import Menu from './components/Menu.js';
 import Form from './components/LoginPage/Form.js';
-import LoginBox from "./components/LoginPage/LoginBox.js";
+import LoginBox from './components/LoginPage/LoginBox.js';
+import Loader from './components/LoginPage/Loader.js';
 // import ReactDOM from 'react-dom'; 
 // import { projects } from './data.json';  
 
@@ -31,6 +32,7 @@ const App = () => {
             <div className="middle">
             </div>
             <Form />
+            <Loader />
             <LoginBox />
             <Menu />
         </div>

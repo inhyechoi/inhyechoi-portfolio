@@ -11,16 +11,17 @@ const LoginBox = () => {
     //       </li>
     //     );
     //   });
-    return (
-        <div className="loginBox">
-            <button className="toggle-password hover-target">
-                Forgot password?
-            </button>
-            <button className="hover-target">
-                Log-in
-            </button>
-        </div>
+    // const validateForm = () =>{
+    //     return firstName.length > 0;
+    // }
+    // return (
+    //     <div className="loginBox">
+    //         <button className="toggle-password hover-target">
+    //             Forgot password?
+    //         </button>
 
-    );
+    //     </div>
+
+    // );
 };
 export default LoginBox;

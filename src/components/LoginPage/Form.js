@@ -11,6 +11,10 @@ const Form = () => {
     const onSubmit = data =>{
         console.log(data);
     };
+
+    // const validateForm = () =>{
+    //     return name.length > 0;
+    // }
     
     return(
         /* "handleSubmit" will validate input before invoking "onSubmit" */
@@ -27,6 +31,15 @@ const Form = () => {
                     {errors.firstName && errors.firstName.type === "required" && (
                         <div className="error">You must enter your name.</div>
                     )} */}
+            </div>
+            <div className="login-box">
+                <button className="toggle-password hover-target">
+                    Forgot password?
+                </button>
+                {/* disabled={!validateForm()} */}
+                <button type="submit" className="hover-target" ref={register({ required: true })}>
+                    Log-in
+                </button>
             </div>
             </form>
         </div>

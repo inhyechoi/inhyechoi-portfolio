@@ -31,7 +31,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "predeploy": "npm run build",
-        "deploy": "inhyechoi -d build",
+        "deploy": "inhyechoi -d master",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {

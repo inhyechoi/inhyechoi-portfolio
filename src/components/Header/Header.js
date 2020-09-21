@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 
 const Header = () => {
     return (
@@ -9,9 +9,22 @@ const Header = () => {
         <div className="closebtn hover-target" style={{ display: "none" }}>
           <span className="arrow"></span>
         </div>
-        <button className="toggle-menu hover-target">
-          <span></span>
-        </button>
+        <ol>
+            <li>
+                <p>about</p>
+            </li>
+            <li>
+                <p>project</p>
+            </li>
+            <li>
+                <p>experiment</p>
+            </li>
+            <li>
+                <button className="toggle-menu hover-target">
+                    <span></span>
+                </button>
+            </li>
+        </ol>
       </div>
     );
 }

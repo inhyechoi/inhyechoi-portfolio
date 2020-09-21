@@ -7,8 +7,12 @@
     padding: 0.3em;
     margin-top: 0.8em;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin-left: 1.5em;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.6);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
     img{
         display: flex;
         justify-content: flex-start;
@@ -16,6 +20,12 @@
         margin-top: 0.8em;
         margin-left: 10%;
         border-radius: 50%;
+    }
+    ol{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 80vw;
     }
 }
 

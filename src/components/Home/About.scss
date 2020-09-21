@@ -1,0 +1,55 @@
+@import '../../variables.scss';
+
+#inhye-bg{
+    background-color: $secondary-white;
+    width: 100vw;
+    height: 800px;
+  }
+//   #rect-prism-1 line, #rect-prism-2 line, #rect-prism-3 line{
+//       stroke: $secondary-orange;
+//   }
+  
+//   #circle-1, #circle-2, #circle-3, #circle-4{
+//       circle{
+//           fill: $secondary-blue;
+//       }
+//   }
+
+  #spiral-1,#spiral-2 {
+    animation: rotate 2s infinite linear;
+    transform-origin: 80% 50%;
+    transform-box: fill-box;
+    display: inline-block;
+  }
+  @keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  #spiral-1, #spiral-2, #spiral-3 path{
+    stroke: $primary-color;
+  }
+  #spiral-3 {
+    animation: rotate 2s infinite linear;
+    animation-direction: reverse;
+    transform-origin: 80% 50%;
+    transform-box: fill-box;
+    display: inline-block;
+  }
+  @keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+//   #curve-1, #curve-2{
+//     path{
+//         stroke: $secondary-orange;
+//     }
+//   }

@@ -4,6 +4,7 @@ import Menu from './components/Menu.js';
 import Form from './components/LoginPage/Form.js';
 // import LoginBox from './components/LoginPage/LoginBox.js';
 import Loader from './components/LoginPage/Loader.js';
+import About from './components/Home/About.js';
 // import { Router } from 'react-router';
 // import ReactDOM from 'react-dom'; 
 // import { projects } from './data.json';  
@@ -12,7 +13,8 @@ import Loader from './components/LoginPage/Loader.js';
 // import maintitle from './assets/inhyechoi-main-text.svg';
 
 import './App.scss';
-import'./components/LoginPage/Form.scss';
+import './components/Home/About.scss';
+import './components/LoginPage/Form.scss';
 import './components/Header/Header.scss';
 import './components/Menu.scss';
 import './components/Projects.scss';
@@ -32,11 +34,14 @@ const App = () => {
             <Header />
             <div className="middle">
             </div>
+            <About />
+
             <Loader />
             {/* <Router exact path="/login"> */}
                 <Form />
             {/* </Router> */}
             <Menu />
+
         </div>
     );
 }

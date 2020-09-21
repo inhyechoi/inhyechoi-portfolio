@@ -17,14 +17,9 @@
 
 .middle{
     margin-bottom: 5rem;
+    display: none;
 }
 
 p, a{
     text-transform: uppercase;
-    text-shadow:
-        -1px -1px 0px #000, 
-        0px 1px 0px #000, 
-        1px -1px 0 #000, 
-        -1px 1px 0 #000, 
-        1px 1px 0 #000;
 }

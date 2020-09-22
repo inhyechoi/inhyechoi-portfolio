@@ -5,10 +5,10 @@
     top: 0;
     width: 100vw;
     padding: 0.3em;
-    margin-top: 0.8em;
+    // margin-top: 0.8em;
+    // margin-left: 1.5em;
     display: flex;
     justify-content: space-between;
-    margin-left: 1.5em;
     background-color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.6);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
@@ -39,7 +39,7 @@
         margin-left: 30%;
     }
 }
-
+/* credit to Ananya Neogi */
 :root{
     --primary-color: #111111;
     --primary-alternative-color: #654310;

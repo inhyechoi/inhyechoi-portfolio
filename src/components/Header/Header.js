@@ -21,6 +21,7 @@ const Header = () => {
                 <p>experiment</p>
             </li>
             <li>
+              {/* credit to Ananya Neogi */}
                 <div className="themeSwitchWrapper">
                     <label className="themeSwitch" htmlFor="checkbox">
                         <input type="checkbox" id="checkBox"/>
@@ -28,6 +29,7 @@ const Header = () => {
                     </label>
                     <em>Enable Dark Mode</em>
                 </div>
+
             </li>
         </ol>
       </div>

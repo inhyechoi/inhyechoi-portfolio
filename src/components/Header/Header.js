@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ThemeSwitch from './ThemeSwitch';
 
 const Header = () => {
-    
+    const [value, setValue] = useState(false);
     return (
       <div className="header">
         <a href="/" className="logo">
@@ -21,15 +22,7 @@ const Header = () => {
                 <p>experiment</p>
             </li>
             <li>
-              {/* credit to Ananya Neogi */}
-                <div className="themeSwitchWrapper">
-                    <label className="themeSwitch" htmlFor="checkbox">
-                        <input type="checkbox" id="checkBox"/>
-                        <div className="slider round"></div>
-                    </label>
-                    <em>Enable Dark Mode</em>
-                </div>
-
+              <ThemeSwitch isOn={value} handleToggle={()=> setValue(!value)} onColor="#E65722"/>
             </li>
         </ol>
       </div>

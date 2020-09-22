@@ -35,7 +35,6 @@ const App = () => {
             <div className="middle">
             </div>
             <About />
-
             <Loader />
             {/* <Router exact path="/login"> */}
                 <Form />

@@ -1,24 +1,32 @@
-import React from 'react';
+import React,  { useState, useEffect } from 'react';
 import './ProjectItem.scss';
 
-const ProjectItem = ({ backgroundimage, title, viewProject }) => {
+import desktopImage from '../../Assets/Images/Projects/Desktop/JJEntertainment.jpg';
+import mobileImage from '../../Assets/Images/Projects/Mobile/JJEntertainment_changmo_jedharper_instagram_square.jpg'
 
-    const IMAGE_BASE_URL = "../../assets/images/";
-    const backgroundStyle = {
-        color: 'blue',
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        width: '100%',
-        height: '400px',
-        backgroundimage: `url(${IMAGE_BASE_URL}${backgroundimage})`
-    }
+const ProjectItem = ({ desktopImage, title, viewProject }) => {
+    const imageUrl = useWindowWidth() >= 650 ? desktopImage : mobileImage;
+    const useWindowWidth = () =>{
+    const [ windowWidth, setWindowWidth ] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleWindowResize = () => {
+            setWindowWidth(window.innerWidth);
+        };
+
+        window.addEventListener('resize', handleWindowResize);
+        return () => window.removeEventListener('resize', handleWindowResize);
+    },[]);
+    
+    return windowWidth;
+    };
 
 return(
-    <div className="backgroundImage" backgroundimage={backgroundimage !== undefined ? backgroundStyle : null}>
+    <div className="projectBackgroundImage" style={{ desktopImage: `url(${imageUrl})`}}>
         <div className="title">{title}</div> 
         <div className="viewProject">{viewProject}</div>
     </div>
 );
-};
+}; 
 
 export default ProjectItem

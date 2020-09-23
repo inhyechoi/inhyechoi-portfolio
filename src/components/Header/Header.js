@@ -6,7 +6,7 @@ const Header = () => {
     return (
       <div className="header">
         <a href="/" className="logo">
-            <img src={require('../../assets/inhye-main-logo.svg')} alt="" style={{ width: "50%" }}/>
+            <img src={require('../../Assets/inhye-main-logo.svg')} alt="" style={{ width: "50%" }}/>
         </a>
         <div className="closeBtn hover-target" style={{ display: "none" }}>
           <span className="arrow"></span>

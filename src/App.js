@@ -1,17 +1,17 @@
 import React from 'react';
-import Header from './components/Header/Header.js';
-import About from './components/Home/About.js';
-import Projects from './components/Home/Projects.js';
+import Header from './Components/Header/Header.js';
+import About from './Components/Home/About.js';
+import Projects from './Components/Home/Projects.js';
 // import { Router } from 'react-router';
 // import ReactDOM from 'react-dom'; 
 
 import './App.scss';
-import './components/Home/About.scss';
-import './components/LoginPage/Form.scss';
-import './components/Header/Header.scss';
-import './components/Menu.scss';
-import './components/Home/Projects.scss';
-import './components/LoginPage/LoginBox.scss';
+import './Components/Home/About.scss';
+import './Components/LoginPage/Form.scss';
+import './Components/Header/Header.scss';
+import './Components/Menu.scss';
+import './Components/Home/Projects.scss';
+import './Components/LoginPage/LoginBox.scss';
 import './variables.scss';
 
 //for offset position

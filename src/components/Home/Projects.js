@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectItem from './ProjectItem.js';
 import './Projects.scss';
-// import { JJEntertainment } from '../../Assets/Images/Projects'
+// import { JJEntertainment } from '../../Assets/Images/Projects/Desktop'
 
 const Projects = () => {
     // const projectsItemList =[

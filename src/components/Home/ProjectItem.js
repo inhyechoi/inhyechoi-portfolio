@@ -6,12 +6,13 @@ import desktopImage from '../../Assets/Images/Projects/Desktop/JJEntertainment.j
 import mobileImage from '../../Assets/Images/Projects/Mobile/JJEntertainment_changmo_jedharper_instagram_square.jpg'
 
 console.log(desktopImage);
+console.log(mobileImage);
 const ProjectItem = ({ desktopImage, title, viewProject }) => {
     const imageUrl = useWindowWidth() >= 650 ? desktopImage : mobileImage;
 
     const { windowWidth } = useWindowWidth();
 return(
-    <div className="projectBackgroundImage" style={{ backgroundImage: `url(${imageUrl})`}}>
+    <div className="projectItem" style={{ backgroundImage: `url(${ imageUrl })`}}>
         {windowWidth >= 650 &&( 
             <>
             <div className="title">{title}</div> 

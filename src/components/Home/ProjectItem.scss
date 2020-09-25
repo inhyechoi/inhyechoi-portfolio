@@ -1,8 +1,15 @@
 @import '../../variables.scss';
 
 .projectItem{
-    // background-color: red;
     width: 600px;
     height: 450px;
     display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media (min-width: 650px ) {
+
+
 }

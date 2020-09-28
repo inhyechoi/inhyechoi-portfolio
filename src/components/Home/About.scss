@@ -1,13 +1,18 @@
 @import '../../variables.scss';
 
 .aboutHeader{
-    position: absolute;
-    bottom: 16%;
-    right: 6%;
-    width: 38%;
-    padding: 0 2rem;
-    margin: 1rem 0;
+    // position: absolute;
+    // bottom: 16%;
+    // right: 6%;
+    // width: 38%;
+    @media (max-width: 600px) {
+        // font-size: 1em;
+    }
+    @media (min-width: 960px) {
+        width: 375px;
+    }
 }
+
 #inhye-bg{
     background-color: $secondary-white;
     width: 100vw;

@@ -45,6 +45,12 @@ body {
 
 h1{
     color: var(--font-color);
+    @media (max-width: 600px) {
+        font-size: 1em;
+    }
+    @media (max-width: 960px) {
+        font-size: 1.5em;
+    }
 }
 
 ::-webkit-scrollbar {

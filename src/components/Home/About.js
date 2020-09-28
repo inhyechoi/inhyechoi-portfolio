@@ -5,7 +5,6 @@ const About = () => {
     return(
         <div className="about">
             <title>Inhye Choi</title>
-            <h1 className="aboutHeader">Hello I’m Inhye, a Front-end Developer. My passion is in creative frontend development.</h1>
             <svg id="inhye-bg" width="100%" height="100%" xmlms="https://www.w3.org/TR/SVG/" viewBox="0 0 1295.87 804.79">
                 <g id="rect-prism-1">
                     <line x1="55" y1="30" x2="100" y2="10"  stroke="black" strokeWidth="2" strokeLinecap="round"/>
@@ -145,6 +144,11 @@ const About = () => {
                 C 1088.5 310.5 1083.5 310.5 1083 308
                 "/>  
                 </g>
+                <foreignObject x="68%" y="70%" width="300" height="400" className="aboutHeader">
+                    <div xmlns="https://www.w3.org/TR/SVG/">
+                        <h1>Hello I’m Inhye, a Front-end Developer. My passion is in creative frontend development.</h1>
+                    </div>
+                </foreignObject>
             </svg>
         </div>
     );

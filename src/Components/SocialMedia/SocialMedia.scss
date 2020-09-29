@@ -1,5 +1,48 @@
 @import '../../variables.scss';
 
 .socialBar{
-    background-color: white;
+    background-color: rgba(253, 253, 253 , 0.3);
+    position: fixed;
+    right: 3%;
+    top: 42.5%;
+    height: 200px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
 }
+
+.socialBar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 0.5em;
+    background-color: rgba(253, 253, 253 , 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.socialBar .fa{
+    padding:.5em;
+    line-height: 50px;
+    margin:.5em;
+    width: 35px;
+    height: 35px;
+    position: inherit;
+    color: $secondary-blue;
+}
+
+.socialBar a:hover, .socialBar a:active{
+    transform: scale(1.5); 
+    transition: all 0.3s ease-in-out;
+    // margin: 0 2em;
+}
+
+// .socialBar li:hover + li a{
+//   transform: scale(1.5);
+//   margin: 0 1.5em;
+// }

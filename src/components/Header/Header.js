@@ -14,7 +14,7 @@ const Header = () => {
           <span className="arrow"></span>
         </div>
         <ol>
-            <li>
+            {/* <li>
                 <p>about</p>
             </li>
             <li>
@@ -22,6 +22,15 @@ const Header = () => {
             </li>
             <li>
                 <p>experiment</p>
+            </li> */}
+            <li>
+                <p>       </p>
+            </li>
+            <li>
+                <p>       </p>
+            </li>
+            <li>
+                <p>            </p>
             </li>
             <li>
                 <DarkModeToggle />

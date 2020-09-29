@@ -34,22 +34,23 @@ li {
 body {
   // height: 100vh;
   font-family: $main-font;
-  background-color: var(--bg-color);
-  color: var(--font-color);
   font-weight: 300;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   overflow: auto;
+  background-color:var(--background-color);
+  color:var(--color);
 }
 
-h1{
-    color: var(--font-color);
-    @media (max-width: 600px) {
-        font-size: 1em;
+h2{
+    color: $primary-dark-color !important;
+    font-size: 1.5em; 
+    @media (max-width: 900px) {
+        font-size: 1.3em;
     }
-    @media (max-width: 960px) {
-        font-size: 1.5em;
+    @media (max-width: 600px) {
+        font-size: 2em;
     }
 }
 

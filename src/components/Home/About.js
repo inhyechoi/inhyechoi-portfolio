@@ -146,7 +146,7 @@ const About = () => {
                 </g>
                 <foreignObject x="68%" y="70%" width="300" height="400" className="aboutHeader">
                     <div xmlns="https://www.w3.org/TR/SVG/">
-                        <h1>Hello I’m Inhye, a Front-end Developer. My passion is in creative frontend development.</h1>
+                        <h2>Hello I’m Inhye, a Front-end Developer. My passion is in creative frontend development.</h2>
                     </div>
                 </foreignObject>
             </svg>

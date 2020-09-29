@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
-import ThemeSwitch from './ThemeSwitch';
+import React from 'react';
+// import ThemeSwitch from './ThemeSwitch';
+import DarkModeToggle from '../Theme/index';
+
 
 const Header = () => {
-    const [value, setValue] = useState(false);
+    // const [value, setValue] = useState(false);
     return (
-      <div className="header">
+      <header className="header">
         <a href="/" className="logo">
-            <img src={require('../../Assets/inhye-main-logo.svg')} alt="" style={{ width: "50%" }}/>
+            <img src={require('../../Assets/inhye-main-logo.svg')} alt="frontend developer logo design web graphic" style={{ width: "50%" }}/>
         </a>
         <div className="closeBtn hover-target" style={{ display: "none" }}>
           <span className="arrow"></span>
@@ -22,10 +24,11 @@ const Header = () => {
                 <p>experiment</p>
             </li>
             <li>
-              <ThemeSwitch isOn={value} handleToggle={()=> setValue(!value)} onColor="#E65722"/>
+                <DarkModeToggle />
+              {/* <ThemeSwitch isOn={value} handleToggle={()=> setValue(!value)} onColor="#E65722"/> */}
             </li>
         </ol>
-      </div>
+      </header>
     );
 }
 

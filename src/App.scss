@@ -2,7 +2,7 @@
 @import './variables.scss';
 
 .App {
-    background-color: $primary-light-color;
+    background-color:var(--background-color);
     background-size: 100% 100%;
     min-height: 100vh;
     min-width: 100vw;

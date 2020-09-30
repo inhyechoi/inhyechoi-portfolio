@@ -4,8 +4,8 @@ import SocialMedia from './Components/SocialMedia/SocialMedia.js';
 import About from './Components/Home/About.js';
 
 import Projects from './Components/Home/Projects.js';
-// import { Router } from 'react-router';
-// import ReactDOM from 'react-dom'; 
+// import { BrowserRouter as Router, Link, Route, Switch } from 'react-router';
+
 
 import './App.scss';
 import './Components/Home/About.scss';
@@ -35,10 +35,18 @@ const App = () => {
             <SocialMedia />
             <div className="middle">
             </div>
+            {/* <Router>    
+                <Link to="/about"></Link>
+
+                <Switch>
+                    <Route path="/about" component="{About}" />
+
+                </Switch> */}
             <About />
             <Projects />
             {/* <Router exact path="/login">
             </Router> */}
+            {/* </Router> */}
         </div>
     );
 }

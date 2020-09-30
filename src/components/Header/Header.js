@@ -14,7 +14,7 @@ const Header = () => {
           <span className="arrow"></span>
         </div>
         <ol>
-            {/* <li>
+            <li>
                 <p>about</p>
             </li>
             <li>
@@ -22,8 +22,8 @@ const Header = () => {
             </li>
             <li>
                 <p>experiment</p>
-            </li> */}
-            <li>
+            </li>
+            {/* <li>
                 <p>       </p>
             </li>
             <li>
@@ -31,7 +31,7 @@ const Header = () => {
             </li>
             <li>
                 <p>            </p>
-            </li>
+            </li> */}
             <li>
                 <DarkModeToggle />
               {/* <ThemeSwitch isOn={value} handleToggle={()=> setValue(!value)} onColor="#E65722"/> */}

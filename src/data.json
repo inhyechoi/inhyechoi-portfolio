@@ -1,6 +1,6 @@
 {
-    "projects": [
-        {
+    "projects": 
+    [{
         "title": "Undefinedteam",
         "category": "frontend development",
         "backgroundImage": "/src/Assets/Images/Projects/Desktop/JJEntertainment.jpg",
@@ -9,20 +9,17 @@
         "url": "https://www.undefinedteam.com/",
         "description": "",
         "desktop": [],
-        "mobile": [
-        ]
-        },
-        {
-            "title": "SiteMax Systems",
-            "category": "frontend development",
-            "background": "",
-            "date": "2018-2019",
-            "shortDescription": "construction software company frontend development and web management",
-            "url": "https://www.sitemaxsystems.com/",
-            "description": "",
-            "desktop": [],
-            "mobile": [
-            ]
-            }
-    ]
+        "mobile": []
+    },
+    {
+        "title": "SiteMax Systems",
+        "category": "frontend development",
+        "background": "",
+        "date": "2018-2019",
+        "shortDescription": "construction software company frontend development and web management",
+        "url": "https://www.sitemaxsystems.com/",
+        "description": "",
+        "desktop": [],
+        "mobile": []
+    }]
 }

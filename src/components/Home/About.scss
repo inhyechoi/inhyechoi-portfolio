@@ -1,6 +1,7 @@
 @import '../../variables.scss';
 
-.aboutHeader{
+.aboutHeader {
+
     // position: absolute;
     // bottom: 16%;
     // right: 6%;
@@ -8,46 +9,55 @@
     @media (max-width: 600px) {
         // font-size: 1em;
     }
+
     @media (min-width: 960px) {
         width: 375px;
     }
 }
 
-#inhye-bg{
+#inhye-bg {
     background-color: $secondary-white;
     width: 100vw;
     height: auto;
-  }
+}
+
 //   #rect-prism-1 line, #rect-prism-2 line, #rect-prism-3 line{
 //       stroke: $secondary-orange;
 //   }
-  
+
 //   #circle-1, #circle-2, #circle-3, #circle-4{
 //       circle{
 //           fill: $secondary-blue;
 //       }
 //   }
-#rect-prism-1{
+#rect-prism-1 {
     transform: scale(0.8) translate(-3%, 35%);
 }
-#rect-prism-2{
+
+#rect-prism-2 {
     transform: scale(0.8)translate(-12%, 118%);
 }
-#rect-prism-3{
+
+#rect-prism-3 {
     transform: scale(0.7) translate(67%, 103%) rotate(148deg);
 }
-#rect-prism-4{
+
+#rect-prism-4 {
     transform: scale(0.7) translate(126%, 87%) rotate(248deg);
 }
-#circle-2{
-    transform: translate(70%,30%);
+
+#circle-2 {
+    transform: translate(70%, 30%);
 }
-#circle-3{
-    transform: translate(48%,-7.5%);
+
+#circle-3 {
+    transform: translate(48%, -7.5%);
 }
-#circle-4{
-    transform: translate(18%,47%);
+
+#circle-4 {
+    transform: translate(18%, 47%);
 }
+
 //   #spiral-1,#spiral-2 {
 //     animation: rotate 2s infinite linear;
 //     transform-origin: 80% 50%;
@@ -62,37 +72,51 @@
 //       transform: rotate(360deg);
 //     }
 //   }
-#spiral-1, #spiral-2, #spiral-3, #spiral-4{
-    path{
+#spiral-1,
+#spiral-2,
+#spiral-3,
+#spiral-4 {
+    path {
         stroke: $primary-color;
     }
 }
-#spiral-1{
+
+#spiral-1 {
     transform: scale(0.7) translate(38%, 88%) rotate(143deg);
 }
-#spiral-2{
-    transform: scale(0.7, -0.7) translate(82%,-98%);
+
+#spiral-2 {
+    transform: scale(0.7, -0.7) translate(82%, -98%);
 }
-#spiral-3{
-    transform: scale(0.7, -0.7) translate(87%,-58%) rotate(112deg);
+
+#spiral-3 {
+    transform: scale(0.7, -0.7) translate(87%, -58%) rotate(112deg);
 }
-#spiral-4{
-    transform: scale(0.7) translate(119%,115%) rotate(109deg);
+
+#spiral-4 {
+    transform: scale(0.7) translate(119%, 115%) rotate(109deg);
 }
-#curve-1,#curve-2, #curve-3{
-    path{
+
+#curve-1,
+#curve-2,
+#curve-3 {
+    path {
         stroke: $primary-color;
     }
 }
-#curve-1{
+
+#curve-1 {
     transform: scale(0.8) translate(25%, 3%);
 }
-#curve-2{
+
+#curve-2 {
     transform: translate(55%, 33%) rotate(173deg);
 }
-#curve-3{
+
+#curve-3 {
     transform: scale(0.8) translate(114%, 114%) rotate(173deg);
 }
+
 //   #spiral-3 {
 //     animation: rotate 2s infinite linear;
 //     animation-direction: reverse;

@@ -3,7 +3,7 @@ import Header from './Components/Header/Header.js';
 import SocialMedia from './Components/SocialMedia/SocialMedia.js';
 import About from './Components/Home/About.js';
 
-// import Projects from './Components/Home/Projects.js';
+import Projects from './Components/Home/Projects.js';
 // import { Router } from 'react-router';
 // import ReactDOM from 'react-dom'; 
 
@@ -33,7 +33,7 @@ const App = () => {
             <div className="middle">
             </div>
             <About />
-            {/* <Projects /> */}
+            <Projects />
             {/* <Router exact path="/login">
             </Router> */}
         </div>

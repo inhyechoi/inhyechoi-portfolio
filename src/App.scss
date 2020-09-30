@@ -2,23 +2,25 @@
 @import './variables.scss';
 
 .App {
-    background-color:var(--background-color);
+    background-color: var(--background-color);
     background-size: 100% 100%;
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     @media (min-width: 600px) {
         background-size: 100% 100%;
     }
 }
 
-.middle{
+.middle {
     margin-bottom: 5rem;
     display: none;
 }
 
-p, a{
+p,
+a {
     text-transform: uppercase;
 }

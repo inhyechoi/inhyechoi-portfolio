@@ -1,25 +1,26 @@
 {
-    "projects": 
-    [{
-        "title": "Undefinedteam",
-        "category": "frontend development",
-        "backgroundImage": "/src/Assets/Images/Projects/Desktop/JJEntertainment.jpg",
-        "date": "Feb 2020",
-        "shortDescription": "web design agency lead development and project management",
-        "url": "https://www.undefinedteam.com/",
-        "description": "",
-        "desktop": [],
-        "mobile": []
-    },
-    {
-        "title": "SiteMax Systems",
-        "category": "frontend development",
-        "background": "",
-        "date": "2018-2019",
-        "shortDescription": "construction software company frontend development and web management",
-        "url": "https://www.sitemaxsystems.com/",
-        "description": "",
-        "desktop": [],
-        "mobile": []
-    }]
+    "projects": [
+        {
+            "title": "Undefinedteam",
+            "category": "frontend development",
+            "backgroundImage": "/src/Assets/Images/Projects/Desktop/JJEntertainment.jpg",
+            "date": "Feb 2020",
+            "shortDescription": "web design agency lead development and project management",
+            "url": "https://www.undefinedteam.com/",
+            "description": "",
+            "desktop": [],
+            "mobile": []
+        },
+        {
+            "title": "SiteMax Systems",
+            "category": "frontend development",
+            "background": "",
+            "date": "2018-2019",
+            "shortDescription": "construction software company frontend development and web management",
+            "url": "https://www.sitemaxsystems.com/",
+            "description": "",
+            "desktop": [],
+            "mobile": []
+        }
+    ]
 }

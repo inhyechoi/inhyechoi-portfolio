@@ -18,13 +18,14 @@ const ProjectItem = ({ viewProject }) => {
                 <>
                 <div className="title">
                     {projects.map((data, key)=>{
-                    return(
-                        <div key={key}>
-                        {data.title}
-                        </div>
-                    );
-
-                })}</div> 
+                            console.log(key);
+                        return(
+                            <div key={key}>
+                            {data.title}
+                            </div>
+                        );
+                    })} 
+                </div>
                 <div className="viewProject">{viewProject}</div>
                 </>
             )}  

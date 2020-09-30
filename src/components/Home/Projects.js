@@ -17,6 +17,7 @@ const Projects = () => {
                 <ProjectItem {...item} key={item.title}/>
             ))} */}
             <ProjectItem />
+            <ProjectItem />
         </section>
     );
 };

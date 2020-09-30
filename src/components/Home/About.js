@@ -144,7 +144,7 @@ const About = () => {
                 C 1088.5 310.5 1083.5 310.5 1083 308
                 "/>  
                 </g>
-                <foreignObject x="68%" y="70%" width="300" height="400" className="aboutHeader">
+                <foreignObject x="60%" y="70%" width="300" height="400" className="aboutHeader">
                     <div xmlns="https://www.w3.org/TR/SVG/">
                         <h2>Hello I’m Inhye, a Front-end Developer. My passion is in creative frontend development.</h2>
                     </div>

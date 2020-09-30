@@ -33,8 +33,7 @@ li {
 
 body {
   // height: 100vh;
-  font-family: $main-font;
-  font-weight: 300;
+  font-family: $secondary-font;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -43,14 +42,20 @@ body {
   color:var(--color);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: $main-font;
+}
+
 h2{
+    font-weight: 600;
     color: $primary-dark-color !important;
     font-size: 1.5em; 
+    letter-spacing: 0.02em;
     @media (max-width: 900px) {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
-    @media (max-width: 600px) {
-        font-size: 2em;
+    @media (max-width: 650px) {
+        font-size: 2.3em;
     }
 }
 

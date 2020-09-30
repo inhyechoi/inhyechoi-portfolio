@@ -1,3 +1,9 @@
+$breakpoints: (
+  tablet-breakpoint: 768px,
+  desktop-breakpoint: 992px,
+  deaktopLg-breakpoint: 1200px
+)!default;
+
 $primary-dark-color: rgb(15, 0, 39);
 $primary-light-color: rgb(241, 239, 245);
 
@@ -23,7 +29,8 @@ $mobile-text-sub: #b2b0c5;
 $link: #fafafa;
 $text: #fafafa;
 
-$main-font: "Arial", sans-serif;
+$main-font: "Poppins", sans-serif;
+$secondary-font: "PT Sans", sans-serif;
 $font-color: #131313;
 $heading-color: #2b2525;
 

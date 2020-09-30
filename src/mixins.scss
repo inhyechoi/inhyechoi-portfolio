@@ -1,0 +1,26 @@
+@import './variables.scss';
+
+@mixin tablet {
+    @media (min-width: $tablet-breakpoint) {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media (min-width: $desktop-breakpoint) {
+        @content;
+    }
+}
+
+@mixin desktopLg {
+    @media (min-width: $desktopLg-breakpoint) {
+        @content;
+    }
+}
+
+// @mixin respond-to($breakpoint) {
+//     @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+//       @content;
+//     }
+// }
+  

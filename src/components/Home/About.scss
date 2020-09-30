@@ -1,16 +1,12 @@
 @import '../../variables.scss';
 
 .aboutHeader {
-
     // position: absolute;
     // bottom: 16%;
     // right: 6%;
     // width: 38%;
-    @media (max-width: 600px) {
-        // font-size: 1em;
-    }
 
-    @media (min-width: 960px) {
+    @media (min-width: 650px) {
         width: 375px;
     }
 }
@@ -18,7 +14,11 @@
 #inhye-bg {
     background-color: $secondary-white;
     width: 100vw;
-    height: auto;
+    height: 80vh;
+
+    @media (min-width: 650px) {
+        height: auto;
+    }
 }
 
 //   #rect-prism-1 line, #rect-prism-2 line, #rect-prism-3 line{

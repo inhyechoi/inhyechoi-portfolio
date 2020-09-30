@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './index.scss';
-import '../../darkTheme.scss';
-import '../../lightTheme.scss';
+import '../../Components/Theme/darkTheme.scss';
+import '../../Components/Theme/lightTheme.scss';
 
 // credit to Rohit kumar singh
 const DarkModeToggle = () => {

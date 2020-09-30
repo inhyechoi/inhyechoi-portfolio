@@ -15,7 +15,10 @@ import './Components/SocialMedia/SocialMedia.scss';
 import './Components/Menu.scss';
 import './Components/Home/Projects.scss';
 import './Components/LoginPage/LoginBox.scss';
+import './mixins.scss';
 import './variables.scss';
+import './Style/fonts.scss';
+import './Style/index.scss';
 
 
 //for offset position

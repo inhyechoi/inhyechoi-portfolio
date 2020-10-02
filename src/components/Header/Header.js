@@ -18,7 +18,7 @@ const Header = () => {
                 <p>about</p>
             </li>
             <li>
-                <p>project</p>
+                <p>projects</p>
             </li>
             <li>
                 <p>experiment</p>

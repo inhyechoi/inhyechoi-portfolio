@@ -34,6 +34,7 @@
     height: 35px;
     position: inherit;
     color: $secondary-blue;
+    filter: drop-shadow(0 0 7px white);
 }
 
 .socialBar a:hover,

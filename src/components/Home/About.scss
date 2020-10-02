@@ -1,12 +1,8 @@
 @import '../../variables.scss';
+@import '../../mixins.scss';
 
 .aboutHeader {
-    // position: absolute;
-    // bottom: 16%;
-    // right: 6%;
-    // width: 38%;
-
-    @media (min-width: 650px) {
+    @include tablet {
         width: 375px;
     }
 }
@@ -16,7 +12,7 @@
     width: 100vw;
     height: 80vh;
 
-    @media (min-width: 650px) {
+    @include tablet {
         height: auto;
     }
 }

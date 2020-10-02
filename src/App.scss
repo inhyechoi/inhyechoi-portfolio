@@ -1,4 +1,5 @@
 @import './variables.scss';
+@import './mixins.scss';
 
 .App {
     background-color: var(--background-color);
@@ -9,7 +10,7 @@
     flex-direction: column;
     align-items: center;
 
-    @media (min-width: 650px) {
+    @include tablet{
         background-size: 100% 100%;
     }
 }

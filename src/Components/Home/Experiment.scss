@@ -1,0 +1,36 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
+.experimentWrapper{
+    width: 100vw;
+    height: auto;
+}
+
+.experimentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    @include tablet{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.experimentBtn{
+    height: 56px;
+    width: 50%;
+    background-color: $button-color;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2em;
+    @include tablet{
+        width: 30%;
+        margin-bottom: 7em;
+        margin-top: 7em;
+    }
+}

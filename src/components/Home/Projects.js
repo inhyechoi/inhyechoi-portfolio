@@ -16,8 +16,11 @@ const Projects = () => {
             {/* {projectsItemList.map((item) =>(
                 <ProjectItem {...item} key={item.title}/>
             ))} */}
-            <ProjectItem />
-            <ProjectItem />
+            <h1>Projects</h1>
+            <div className="container projectContainer">                      
+                    <ProjectItem />
+                    <ProjectItem />
+            </div>
         </section>
     );
 };

@@ -1,8 +1,6 @@
-$breakpoints: (
-  tablet-breakpoint: 768px,
-  desktop-breakpoint: 992px,
-  deaktopLg-breakpoint: 1200px
-)!default;
+$tablet-breakpoint: 650px;
+$desktop-breakpoint: 992px;
+$desktopLg-breakpoint: 1200px;
 
 $primary-dark-color: rgb(15, 0, 39);
 $primary-light-color: rgb(241, 239, 245);
@@ -14,6 +12,8 @@ $secondary-blue: #2E93EA;
 $secondary-orange: #E65722;
 $secondary-white: #F9f9f9;
 $shadow-color: rgba(80, 80, 80, 0.2);
+
+$button-color: #30add6;
 
 $error-color: #923634;
 $error-bg-color: #f3e4e3;

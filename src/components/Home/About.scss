@@ -2,8 +2,25 @@
 @import '../../mixins.scss';
 
 .aboutHeader {
+    transform: translate(-24%, 100px);
+    width: 600px;
+    h2{
+        font-size: 3.3em;
+    }
+    @include mobile{
+        transform: translate(-24%, 0);
+    }
     @include tablet {
         width: 375px;
+        transform: translate(0, -10%);
+        h2{
+            font-size: 2em;
+        }
+    }
+    @include desktopLg{
+        h2{
+            font-size: 1.7em;
+        }
     }
 }
 
@@ -11,9 +28,11 @@
     background-color: $secondary-white;
     width: 100vw;
     height: 80vh;
-
-    @include tablet {
-        height: auto;
+    @include mobile{
+        height: 600px !important;
+    }
+    @include desktop {
+        height: auto !important;
     }
 }
 

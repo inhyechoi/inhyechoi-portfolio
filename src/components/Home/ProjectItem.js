@@ -14,7 +14,7 @@ const ProjectItem = ({ viewProject }) => {
     const { windowWidth } = useWindowWidth();
     return(
         <div className="projectItem" style={{ backgroundImage: `url(${ imageUrl })`}}>
-{console.log("title" + projects[0].title)}
+    {console.log("title" + projects[0].title)}
 
             {windowWidth >= 650 &&( 
                 <>

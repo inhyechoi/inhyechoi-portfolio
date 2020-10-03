@@ -9,12 +9,14 @@
 .experimentContainer{
     display: flex;
     flex-direction: column;
-    padding-top: 5em;
-    padding-bottom: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     @include tablet{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        padding-top: 5em;
+        padding-bottom: 3em;
     }
 }
 

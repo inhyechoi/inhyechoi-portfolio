@@ -18,3 +18,14 @@
         max-width: 1500px;
     }
 }
+
+.title{
+    width: 100%;
+    padding: 0 2em;
+    margin: 0.7em auto;
+    font-size: 1.34em;
+    display: block;
+    @include desktop{
+        font-size: 1.75em;
+    }
+}

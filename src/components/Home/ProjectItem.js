@@ -14,9 +14,11 @@ const ProjectItem = ({ viewProject }) => {
     const { windowWidth } = useWindowWidth();
     return(
         <div className="projectItem" style={{ backgroundImage: `url(${ imageUrl })`}}>
+{console.log("title" + projects[0].title)}
+
             {windowWidth >= 650 &&( 
                 <>
-                <div className="title">
+                <div className="title">                     
                     {projects.map((data, key)=>{
                             console.log(key);
                         return(

@@ -42,6 +42,14 @@ body {
   color:var(--color);
 }
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: $main-font;
 }

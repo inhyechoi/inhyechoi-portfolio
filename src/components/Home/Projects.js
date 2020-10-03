@@ -16,10 +16,10 @@ const Projects = () => {
             {/* {projectsItemList.map((item) =>(
                 <ProjectItem {...item} key={item.title}/>
             ))} */}
-            <h1>Projects</h1>
-            <div className="container projectContainer">                      
-                    <ProjectItem />
-                    <ProjectItem />
+            <div className="container projectContainer">   
+                <h1 className="title">Projects</h1>                   
+                <ProjectItem />
+                <ProjectItem />
             </div>
         </section>
     );

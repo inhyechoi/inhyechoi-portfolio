@@ -4,6 +4,7 @@ import SocialMedia from './Components/SocialMedia/SocialMedia.js';
 import About from './Components/Home/About.js';
 import Projects from './Components/Home/Projects.js';
 import Experiment from './Components/Home/Experiment.js';
+import Footer from './Components/Footer/Footer.js';
 // import { BrowserRouter as Router, Link, Route, Switch } from 'react-router';
 
 
@@ -16,6 +17,7 @@ import './Components/Menu.scss';
 import './Components/Home/Projects.scss';
 import './Components/Home/Experiment.scss';
 import './Components/LoginPage/LoginBox.scss';
+import './Components/Footer/Footer.scss';
 import './mixins.scss';
 import './variables.scss';
 import './Style/fonts.scss';
@@ -46,6 +48,7 @@ const App = () => {
             <About />
             <Projects />
             <Experiment />
+            <Footer />
             {/* <Router exact path="/login">
             </Router> */}
             {/* </Router> */}

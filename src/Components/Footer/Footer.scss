@@ -1,0 +1,46 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
+footer{
+    width: 100vw;
+    height: auto;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.4;
+    padding: 1.5em 0;
+    @include tablet{
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+        max-width: 800px;
+    }
+    @include desktop{
+        max-width: 930px;
+    }
+    @include desktopLg{
+        max-width: 1100px;
+    }
+    .guideBtn{
+        display: flex;
+        flex-direction: column;
+        a:nth-of-type(1), a:nth-of-type(1):active{
+            color: $secondary-orange;
+            font-size: 0.9em;        
+        }
+        a:nth-of-type(2):hover, a:nth-of-type(1):active{
+            color: $secondary-orange;
+        }
+        a:nth-of-type(2){
+            font-size: 0.9em;
+        }
+    }
+}
+
+.copyright{
+    font-size: 0.7em;
+}

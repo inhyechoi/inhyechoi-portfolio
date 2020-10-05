@@ -2,25 +2,110 @@
 @import '../../mixins.scss';
 
 .aboutHeader {
+    position: relative;
     transform: translate(-24%, 100px);
     width: 600px;
-    h2{
+
+    h1,h2{
         font-size: 3.3em;
+        text-transform: uppercase;
+        font-family: $main-alternate-font;
+
     }
-    @include mobile{
+    @include mobile {
         transform: translate(-24%, 0);
     }
+
     @include tablet {
         width: 375px;
         transform: translate(0, -10%);
-        h2{
+
+        h1,h2 {
             font-size: 2em;
         }
     }
+
     @include desktopLg{
-        h2{
+        h1,h2{
             font-size: 1.7em;
         }
+    }
+
+    h1,
+    h2 {
+        span {
+            width: 100%;
+            float: left;
+            color: $primary-dark-color;
+            clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+            transform: translateY(-50px);
+            opacity: 0;      
+          }
+    }
+    h1 span{
+        animation: aboutTitleMotion 3s ease;
+    }
+    h2 span{
+        animation: aboutTitleMotion 3s ease;
+    }
+
+    h1 span {
+        animation-delay: 0.6s;
+
+        &:first-child {
+            animation-delay: 0.7s;
+
+        }
+
+        &:last-child {
+            color: $secondary-orange;
+            animation-delay: 0.5s;
+        }
+    }
+    h2{ 
+        top: 0;
+        position: absolute;
+        
+        span{
+          animation-delay: 4.1s;
+      
+          &:first-child{
+            animation-delay: 4.2s;
+    
+          }
+      
+          &:last-child{
+            color: $secondary-orange;
+            animation-delay: 5s;
+          }
+        }
+    }
+}
+
+/*Credit to Robin Treur*/
+@keyframes aboutTitleMotion {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+        clip-path: polygon(100% 7%, 100% 150%, 0 100%, 0 80%);
+    }
+
+    20% {
+        transform: translateY(0);
+        opacity: 1;
+        clip-path: polygon(100% 7%, 150% 100%, 0 100%, 0 10%);
+    }
+
+    80% {
+        transform: translateY(0);
+        opacity: 1;
+        clip-path: polygon(100% 7%, 150% 100%, 0 100%, 0 10%);
+    }
+
+    100% {
+        transform: translateY(50px);
+        opacity: 0;
+        clip-path: polygon(100% 7%, 150% -0%, 0 100%, 0 100%);
     }
 }
 
@@ -28,9 +113,11 @@
     background-color: $secondary-white;
     width: 100vw;
     height: 80vh;
-    @include mobile{
+
+    @include mobile {
         height: 600px !important;
     }
+
     @include desktop {
         height: auto !important;
     }

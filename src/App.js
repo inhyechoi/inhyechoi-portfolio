@@ -5,6 +5,7 @@ import About from './Components/Home/About.js';
 import Projects from './Components/Home/Projects.js';
 import Experiment from './Components/Home/Experiment.js';
 import Footer from './Components/Footer/Footer.js';
+import ScrollTop from './Components/ScrollTop/ScrollTop';
 // import { BrowserRouter as Router, Link, Route, Switch } from 'react-router';
 
 
@@ -18,6 +19,7 @@ import './Components/Home/Projects.scss';
 import './Components/Home/Experiment.scss';
 import './Components/LoginPage/LoginBox.scss';
 import './Components/Footer/Footer.scss';
+import './Components/ScrollTop/ScrollTop.scss';
 import './mixins.scss';
 import './variables.scss';
 import './Style/fonts.scss';
@@ -36,6 +38,7 @@ const App = () => {
         <div className="App">
             <Header />
             <SocialMedia />
+            <ScrollTop />
             <div className="middle">
             </div>
             {/* <Router>    

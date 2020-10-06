@@ -39,14 +39,15 @@
             color: $primary-dark-color;
             clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
             transform: translateY(-50px);
+            animation-name: aboutTitleMotion;
             opacity: 0;      
           }
     }
     h1 span{
-        animation: aboutTitleMotion 3s ease;
+        animation: titleAnimation 3s ease;
     }
     h2 span{
-        animation: aboutTitleMotion 3s ease;
+        animation: titleAnimation 3s ease;
     }
 
     h1 span {
@@ -76,38 +77,42 @@
       
           &:last-child{
             color: $secondary-orange;
-            animation-delay: 5s;
+            animation-delay: 4s;
           }
         }
     }
 }
 
 /*Credit to Robin Treur*/
-@keyframes aboutTitleMotion {
+@keyframes titleAnimation {
     0% {
-        transform: translateY(-50px);
-        opacity: 0;
-        clip-path: polygon(100% 7%, 100% 150%, 0 100%, 0 80%);
-    }
-
-    20% {
-        transform: translateY(0);
-        opacity: 1;
-        clip-path: polygon(100% 7%, 150% 100%, 0 100%, 0 10%);
-    }
-
-    80% {
-        transform: translateY(0);
-        opacity: 1;
-        clip-path: polygon(100% 7%, 150% 100%, 0 100%, 0 10%);
-    }
-
-    100% {
-        transform: translateY(50px);
-        opacity: 0;
-        clip-path: polygon(100% 7%, 150% -0%, 0 100%, 0 100%);
-    }
+      transform: translateY(-50px);
+      opacity: 0;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
+  }
+  20% {
+      transform: translateY(0);
+      opacity: 1;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  80% {
+       transform: translateY(0);
+       opacity: 1;
+      -webkit-clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+      clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 15%);
+  }
+  100% {
+       transform: translateY(50px);
+       opacity: 0;
+      -webkit-clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+      clip-path: polygon(100% 0, 100% -0%, 0 100%, 0 100%);
+    
+  }
+   
 }
+
 
 #inhye-bg {
     background-color: $secondary-white;
@@ -123,15 +128,16 @@
     }
 }
 
-//   #rect-prism-1 line, #rect-prism-2 line, #rect-prism-3 line{
-//       stroke: $secondary-orange;
-//   }
+  #rect-prism-1 line, #rect-prism-2 line, #rect-prism-3 line{
+      stroke: $secondary-orange;
+  }
 
-//   #circle-1, #circle-2, #circle-3, #circle-4{
-//       circle{
-//           fill: $secondary-blue;
-//       }
-//   }
+  #circle-1, #circle-2, #circle-3, #circle-4{
+      circle{
+          fill: $secondary-orange;
+          animation: blinker 1.5s linear infinite;
+      }
+  }
 #rect-prism-1 {
     transform: scale(0.8) translate(-3%, 35%);
 }
@@ -146,6 +152,10 @@
 
 #rect-prism-4 {
     transform: scale(0.7) translate(126%, 87%) rotate(248deg);
+}
+
+circle{
+    filter:url(#dropshadow);
 }
 
 #circle-2 {
@@ -235,8 +245,17 @@
 //     }
 //   }
 
-//   #curve-1, #curve-2{
-//     path{
-//         stroke: $secondary-orange;
-//     }
-//   }
+  #curve-1, #curve-2{
+    path{
+        stroke: $secondary-orange;
+    }
+  }
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+//   box-shadow: 0 0 15px #FFE469;
+//   transition: all 0.75s ease;

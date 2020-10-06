@@ -6,6 +6,11 @@ const About = () => {
         <div className="about">
             <title>Inhye Choi</title>
             <svg id="inhye-bg" width="100%" height="100%" xmlms="https://www.w3.org/TR/SVG/" viewBox="0 0 1295.87 804.79">
+            <defs>
+                <filter id="dropshadow">
+                <feDropShadow dx="0" dy="0" stdDeviation="1" flood-color="#E65772" />
+                </filter>
+            </defs>
                 <g id="rect-prism-1">
                     <line x1="55" y1="30" x2="100" y2="10"  stroke="black" strokeWidth="2" strokeLinecap="round"/>
                     <line x1="55" y1="30" x2="55" y2="48"  stroke="black" strokeWidth="2" strokeLinecap="round"/>

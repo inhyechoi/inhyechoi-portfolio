@@ -6,11 +6,14 @@ import Projects from './Components/Home/Projects.js';
 import Experiment from './Components/Home/Experiment.js';
 import Footer from './Components/Footer/Footer.js';
 import ScrollTop from './Components/ScrollTop/ScrollTop';
+// import { Controller, Scene } from 'react-scrollmagic';
+// import { Tween, Timeline } from 'react-gsap';
 // import { BrowserRouter as Router, Link, Route, Switch } from 'react-router';
 
 
 import './App.scss';
 import './Components/Home/About.scss';
+import './Components/SplitText/SplitText.scss';
 import './Components/LoginPage/Form.scss';
 import './Components/Header/Header.scss';
 import './Components/SocialMedia/SocialMedia.scss';
@@ -48,6 +51,37 @@ const App = () => {
                     <Route path="/about" component="{About}" />
 
                 </Switch> */}
+            {/* <Controller>
+                <Scene
+                    triggerHook="onLeave"
+                    duration="300%"
+                    pin
+                >
+                    <Timeline
+                    wrapper={<div id="pinContainer" />}
+                    >
+                    <section className="panel blue"><span>Panel</span></section>
+                    <Tween
+                        from={{ x: '-100%' }}
+                        to={{ x: '0%' }}
+                    >
+                        <section className="panel turqoise"><span>Panel</span></section>
+                    </Tween>
+                    <Tween
+                        from={{ x: '100%' }}
+                        to={{ x: '0%' }}
+                    >
+                        <section className="panel green"><span>Panel</span></section>
+                    </Tween>
+                    <Tween
+                        from={{ y: '-100%' }}
+                        to={{ y: '0%' }}
+                    >
+                        <section className="panel bordeaux"><span>Panel</span></section>
+                    </Tween>
+                    </Timeline>
+                </Scene>
+            </Controller> */}
             <About />
             <Projects />
             <Experiment />

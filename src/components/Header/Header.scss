@@ -10,6 +10,7 @@ header {
     justify-content: space-between;
     background-color: var(--background-color);
     color: var(--color);
+    box-shadow: 0.1em 0.1em 0.3em rgba(0,0,0,0.1);
 
     img {
         display: flex;
@@ -19,17 +20,78 @@ header {
         border-radius: 50%;
     }
 
-    ol {
+    .menuWrapper {
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 80vw;
+        width: 53vw;
+        // justify-content: space-evenly;
+        // align-items: center;
+        // overflow: hidden;
+        // position: relative;
+        // width: 80vw;
+
+        .menuNav{
+            margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            @include desktop{
+                display: block;
+            }
+        }
+
+        .menuNav .menu{
+            overflow: hidden;
+            padding-left: 0;
+            display: flex;
+            text-align: center;
+            position: relative;
+            align-items: center;
+        }
+
         p{
             letter-spacing: 0.03em;
             display: none;
-            @include tablet{
+            width: 20%;
+            transition: all 0.5s ease;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            @include desktop{
                 display: block;
             }
         }
     }
+}
+
+header .menuWrapper .menuNav .menu p:nth-child(1):hover ~ .menuLine{
+    left: 0;
+}
+
+header .menuWrapper .menuNav .menu p:nth-child(2):hover ~ .menuLine{
+    left: 20%;
+}
+
+header .menuWrapper .menuNav .menu p:nth-child(3):hover ~ .menuLine{
+    left: 40%;
+}
+
+// header .menuWrapper .menuNav .menu p:nth-child(4){
+//     display: none;
+//     @include desktop{
+//         display: block;
+//     }
+// }
+
+header .menuWrapper .menuLine{
+    transition: all 0.75s ease;
+    background: $secondary-orange;
+    position: absolute;
+    width: 20%;
+    height: 3px;
+    margin-left: 0;
+    bottom: 0;
+    left: -20%;
+}
+
+.switch{
+    margin-right: 2em;
 }

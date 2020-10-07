@@ -6,8 +6,7 @@ import Projects from './Components/Home/Projects.js';
 import Experiment from './Components/Home/Experiment.js';
 import Footer from './Components/Footer/Footer.js';
 import ScrollTop from './Components/ScrollTop/ScrollTop';
-// import { Controller, Scene } from 'react-scrollmagic';
-// import { Tween, Timeline } from 'react-gsap';
+import { Controller, Scene } from 'react-scrollmagic';
 // import { BrowserRouter as Router, Link, Route, Switch } from 'react-router';
 
 
@@ -32,6 +31,15 @@ import './Style/index.scss';
 //for offset position
 
 const App = () => {
+    
+    // const Stateful = () =>{
+    //     return(
+    //         <div id="stateful">Stateful Component</div>
+    //     );
+    // }
+
+    // const Stateless = ({children}) => <div id="stateless">{children}</div>;
+
     // const componentDidMount = () => {
     //     var rect = ReactDOM.findDOMNode(this)
     //       .getBoundingClientRect()
@@ -44,6 +52,24 @@ const App = () => {
             <ScrollTop />
             <div className="middle">
             </div>
+            <div className="scrollContainer">
+                <Controller>
+                    {/* <Scene className="scrollScene-1" duration={600} pin={true}>
+                        <div></div>
+                    </Scene> */}
+                    <Scene duration={600} pin={true}>
+                        <About />
+                    </Scene>
+                    <Scene duration={600} pin={true}>
+                        <div><Projects /></div>
+                    </Scene>  
+                    <Scene duration={600} pin={true}>
+                        <div><Experiment /></div>
+                    </Scene>
+                        <Footer />
+                </Controller>
+            </div>
+
             {/* <Router>    
                 <Link to="/about"></Link>
 
@@ -82,10 +108,8 @@ const App = () => {
                     </Timeline>
                 </Scene>
             </Controller> */}
-            <About />
-            <Projects />
-            <Experiment />
-            <Footer />
+            {/* <Projects />
+            <Experiment /> */}
             {/* <Router exact path="/login">
             </Router> */}
             {/* </Router> */}

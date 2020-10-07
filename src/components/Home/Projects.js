@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectItem from './ProjectItem.js';
-import { Controller, Scene } from 'react-scrollmagic';
+// import { Controller, Scene } from 'react-scrollmagic';
 
 import './Projects.scss';
 // import { JJEntertainment } from '../../Assets/Images/Projects/Desktop'
@@ -19,8 +19,10 @@ const Projects = () => {
                 <ProjectItem {...item} key={item.title}/>
             ))} */}
             <div className="container projectContainer">   
-                <h1 className="title">Projects</h1>                   
-                <Controller>
+                <h1 className="title">Projects</h1>         
+                <ProjectItem />
+                <ProjectItem />          
+                {/* <Controller>
                     <Scene duration={600} pin={true} enbabled={true}>
                         <div className="stickyPin"><ProjectItem /></div>
                     </Scene>
@@ -30,7 +32,7 @@ const Projects = () => {
                     <Scene duration={300} pin={true} offset={100}>
                         <div className="stickyPin blue">Pin test3</div>
                     </Scene>
-                </Controller>
+                </Controller> */}
             </div>
         </section>
     );

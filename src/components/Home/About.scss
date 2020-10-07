@@ -1,6 +1,21 @@
 @import '../../variables.scss';
 @import '../../mixins.scss';
 
+.aboutSection {
+    height: 100vh;
+  }
+  .textContainer {
+    position: relative;
+    display: inline-block;
+    transform-origin: center;
+  }
+  .text, .text2 {
+    position: relative;
+    font-size: 80px;
+    font-weight: bold;
+    display: inline-block;
+  }
+
 .aboutHeader {
     position: relative;
     transform: translate(-24%, 100px);

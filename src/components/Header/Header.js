@@ -13,16 +13,19 @@ const Header = () => {
         <div className="closeBtn hover-target" style={{ display: "none" }}>
           <span className="arrow"></span>
         </div>
-        <ol>
-            <li>
+        <div className="menuWrapper">
+            <div className="menuNav">
+            <div className="menu">
                 <p>about</p>
-            </li>
-            <li>
                 <p>projects</p>
-            </li>
-            <li>
                 <p>experiment</p>
-            </li>
+                <p></p>
+                <div class="menuLine"></div>
+                <DarkModeToggle />
+            </div>
+
+            </div>
+        </div>
             {/* <li>
                 <p>       </p>
             </li>
@@ -32,11 +35,8 @@ const Header = () => {
             <li>
                 <p>            </p>
             </li> */}
-            <li>
-                <DarkModeToggle />
+
               {/* <ThemeSwitch isOn={value} handleToggle={()=> setValue(!value)} onColor="#E65722"/> */}
-            </li>
-        </ol>
       </header>
     );
 }

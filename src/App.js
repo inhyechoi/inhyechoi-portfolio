@@ -28,22 +28,7 @@ import './Style/fonts.scss';
 import './Style/index.scss';
 
 
-//for offset position
-
 const App = () => {
-    
-    // const Stateful = () =>{
-    //     return(
-    //         <div id="stateful">Stateful Component</div>
-    //     );
-    // }
-
-    // const Stateless = ({children}) => <div id="stateless">{children}</div>;
-
-    // const componentDidMount = () => {
-    //     var rect = ReactDOM.findDOMNode(this)
-    //       .getBoundingClientRect()
-    // }
 
     return (
         <div className="App">
@@ -54,9 +39,6 @@ const App = () => {
             </div>
             <div className="scrollContainer">
                 <Controller>
-                    {/* <Scene className="scrollScene-1" duration={600} pin={true}>
-                        <div></div>
-                    </Scene> */}
                     <Scene duration={600} pin={true}>
                         <About />
                     </Scene>
@@ -77,39 +59,6 @@ const App = () => {
                     <Route path="/about" component="{About}" />
 
                 </Switch> */}
-            {/* <Controller>
-                <Scene
-                    triggerHook="onLeave"
-                    duration="300%"
-                    pin
-                >
-                    <Timeline
-                    wrapper={<div id="pinContainer" />}
-                    >
-                    <section className="panel blue"><span>Panel</span></section>
-                    <Tween
-                        from={{ x: '-100%' }}
-                        to={{ x: '0%' }}
-                    >
-                        <section className="panel turqoise"><span>Panel</span></section>
-                    </Tween>
-                    <Tween
-                        from={{ x: '100%' }}
-                        to={{ x: '0%' }}
-                    >
-                        <section className="panel green"><span>Panel</span></section>
-                    </Tween>
-                    <Tween
-                        from={{ y: '-100%' }}
-                        to={{ y: '0%' }}
-                    >
-                        <section className="panel bordeaux"><span>Panel</span></section>
-                    </Tween>
-                    </Timeline>
-                </Scene>
-            </Controller> */}
-            {/* <Projects />
-            <Experiment /> */}
             {/* <Router exact path="/login">
             </Router> */}
             {/* </Router> */}

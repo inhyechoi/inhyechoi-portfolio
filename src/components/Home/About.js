@@ -8,7 +8,7 @@ const About = () => {
             <svg id="inhye-bg" width="100%" height="100%" xmlms="https://www.w3.org/TR/SVG/" viewBox="0 0 1295.87 804.79">
             <defs>
                 <filter id="dropshadow">
-                <feDropShadow dx="0" dy="0" stdDeviation="1" flood-color="#E65772" />
+                <feDropShadow dx="0" dy="0" stdDeviation="1" floodColor="#E65772" />
                 </filter>
             </defs>
                 <g id="rect-prism-1">

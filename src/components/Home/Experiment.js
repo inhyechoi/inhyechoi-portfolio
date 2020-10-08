@@ -9,7 +9,7 @@ const Experiment = () => {
                 <h1 className="title">Experiment</h1>
                 <a className="btn experimentBtn" href="https://inhyechoi.github.io/Pong-Game-Project/">Pong Game</a>
                 <a className="btn experimentBtn" href="https://inhyechoi.github.io/Instanews/">Instanews</a>
-                <a className="btn experimentBtn" href="/">Coming Soon</a>
+                <a className="btn experimentBtn" href="https://codepen.io/collection/XexWLd?cursor=ZD0xJm89MSZwPTEmdj03">CodePen</a>
             </div>
         </section>
     );

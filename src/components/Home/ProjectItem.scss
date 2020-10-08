@@ -36,9 +36,6 @@
 .projectItem:nth-of-type(even){
     @include tablet{
         margin: 3em 0 3em 18%;
-        // margin-top: 3em;
-        // margin-bottom:3em
-        // margin-left: 25%;
     }
     @include desktop{
         margin-left: 33%;

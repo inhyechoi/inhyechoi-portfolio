@@ -5,6 +5,12 @@ import DarkModeToggle from '../Theme/index';
 
 const Header = () => {
     // const [value, setValue] = useState(false);
+
+    /*add scroll animation */
+    window.addEventListener('scroll', () => {
+        document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+    }, false);
+
     return (
       <header className="header">
         <a href="/" className="logo">
@@ -23,20 +29,10 @@ const Header = () => {
                 <div class="menuLine"></div>
                 <DarkModeToggle />
             </div>
-
             </div>
         </div>
-            {/* <li>
-                <p>       </p>
-            </li>
-            <li>
-                <p>       </p>
-            </li>
-            <li>
-                <p>            </p>
-            </li> */}
+        <div class="progress"></div>
 
-              {/* <ThemeSwitch isOn={value} handleToggle={()=> setValue(!value)} onColor="#E65722"/> */}
       </header>
     );
 }

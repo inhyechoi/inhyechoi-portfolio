@@ -7,7 +7,7 @@ import SocialMedia from './Components/SocialMedia/SocialMedia.js';
 import HomePage from './Pages/HomePage.js';
 import Footer from './Components/Footer/Footer.js';
 import ScrollTop from './Components/ScrollTop/ScrollTop';
-import { Route, Switch, BrowserRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import './App.scss';
 import './Components/Home/About.scss';
@@ -25,14 +25,13 @@ import './mixins.scss';
 import './variables.scss';
 import './Style/fonts.scss';
 import './Style/index.scss';
-
+import './App.scss';
 
 const App = () => {
 
     return (
         <div className="App">
                 <Header />
-                <BrowserRouter>
                 <SocialMedia />
                 <ScrollTop />
                     <Switch>
@@ -41,8 +40,6 @@ const App = () => {
                         <Route exact path="/">
                             <HomePage />
                         </Route>  
-  
-
             {/* <Switch>
                 <Route
                     path="/about"
@@ -67,8 +64,7 @@ const App = () => {
                 {/* <Router exact path="/login">
                 </Router> */}
                 </Switch>
-                <Footer />
-            </BrowserRouter>    
+                <Footer /> 
         </div>
     );
 }

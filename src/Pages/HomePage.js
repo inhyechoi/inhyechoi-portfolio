@@ -5,6 +5,13 @@ import Projects from '../Components/Home/Projects';
 import Experiment from '../Components/Home/Experiment';
 import { Controller, Scene } from 'react-scrollmagic';
 import '../Style/index.scss';
+import '../mixins.scss';
+import '../variables.scss';
+import '../Style/fonts.scss';
+import '../Components/Home/About.scss';
+import '../Components/Home/Projects.scss';
+import '../Components/Home/Experiment.scss';
+
 
 const HomePage = () => {
     return(

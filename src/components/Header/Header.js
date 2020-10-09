@@ -1,9 +1,8 @@
 import React from 'react';
-// import ThemeSwitch from './ThemeSwitch';
 import DarkModeToggle from '../Theme/index.js';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
-    // const [value, setValue] = useState(false);
 
     /*add scroll animation */
     window.addEventListener('scroll', () => {
@@ -21,16 +20,22 @@ const Header = () => {
         <div className="menuWrapper">
             <div className="menuNav">
             <div className="menu">
-                <p>about</p>
-                <p>projects</p>
-                <p>experiment</p>
+                <p>
+                    <Link to={'/'} className="nav-link">about</Link>    
+                </p>
+                <p>
+                    <Link to={'/projects'} className="nav-link">projects</Link>
+                </p>
+                <p>
+                    <Link to={'/experiment'} className="nav-link">experiment</Link>
+                </p>
                 <p></p>
-                <div class="menuLine"></div>
+                <div className="menuLine"></div>
                 <DarkModeToggle />
             </div>
             </div>
         </div>
-        <div class="progress"></div>
+        <div className="progress"></div>
 
       </header>
     );

@@ -1,10 +1,9 @@
 import React from 'react';
 import Header from './Components/Header/Header.js';
 import SocialMedia from './Components/SocialMedia/SocialMedia.js';
-// import About from './Components/Home/About.js';
-// import Projects from './Components/Home/Projects.js';
-// import Experiment from './Components/Home/Experiment.js';
 import HomePage from './Pages/HomePage.js';
+import ProjectPage from './Pages/ProjectPage.js';
+import ExperimentPage from './Pages/ExperimentPage.js';
 import Footer from './Components/Footer/Footer.js';
 import ScrollTop from './Components/ScrollTop/ScrollTop';
 import { Route, Switch } from 'react-router-dom';
@@ -16,8 +15,8 @@ import './Components/LoginPage/Form.scss';
 import './Components/Header/Header.scss';
 import './Components/SocialMedia/SocialMedia.scss';
 import './Components/Menu.scss';
-import './Components/Home/Projects.scss';
-import './Components/Home/Experiment.scss';
+import './Components/Projects/Projects.scss';
+import './Components/Experiment/Experiment.scss';
 import './Components/LoginPage/LoginBox.scss';
 import './Components/Footer/Footer.scss';
 import './Components/ScrollTop/ScrollTop.scss';
@@ -34,12 +33,18 @@ const App = () => {
                 <Header />
                 <SocialMedia />
                 <ScrollTop />
-                    <Switch>
-                        <div className="middle">
+                {/* <HomePage /> */}
+                <div className="middle">
                         </div>
-                        <Route exact path="/">
+                    <Switch>
+                        {/* <Route path="/" exact render={ () => <HomePage/>} /> */}
+                        <Route exact path="/" component={HomePage} />
+                        <Route path="/projects" component={ProjectPage} />
+                        <Route parth="/experiment" component={ExperimentPage} />
+                    </Switch>
+                                      {/* <Route exact path="/">
                             <HomePage />
-                        </Route>  
+                        </Route>   */}
             {/* <Switch>
                 <Route
                     path="/about"
@@ -63,7 +68,6 @@ const App = () => {
                 </Switch> */}
                 {/* <Router exact path="/login">
                 </Router> */}
-                </Switch>
                 <Footer /> 
         </div>
     );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
 
@@ -149,11 +150,12 @@ const About = () => {
                 C 1088.5 310.5 1083.5 310.5 1083 308
                 "/>  
                 </g>
+                <p><Link to="/about">about</Link></p>
                 <foreignObject x="60%" y="70%" width="300" height="400" className="aboutHeader">
                     <div xmlns="https://www.w3.org/TR/SVG/">
                         <h1 class="title">
-                            <span>Hello I’m Inhye,a  </span>
-                            <span>Front-end Developer.</span>
+                                <span>Hello I’m Inhye,a  </span>
+                                <span>Front-end Developer.</span>
                         </h1>
                         <h2 class="title">
                             <span>My passion is in </span>

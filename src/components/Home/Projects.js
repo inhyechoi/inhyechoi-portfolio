@@ -18,7 +18,7 @@ const Projects = () => {
                 <ProjectItem {...item} key={item.title}/>
             ))} */}
             <div className="container projectContainer">   
-                <h1 className="title">Projects</h1>         
+                    <h1 className="title">Projects</h1>  
                 <ProjectItem />
                 <ProjectItem />          
             </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 // import ThemeSwitch from './ThemeSwitch';
-import DarkModeToggle from '../Theme/index';
-
+import DarkModeToggle from '../Theme/index.js';
 
 const Header = () => {
     // const [value, setValue] = useState(false);

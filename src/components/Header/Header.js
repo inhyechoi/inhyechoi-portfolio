@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useState }from 'react';
 import DarkModeToggle from '../Theme/index.js';
 import { Link } from 'react-router-dom';
+// import MobileMenu from './MobileMenu.js'
 
 const Header = () => {
-
+    
     /*add scroll animation */
     window.addEventListener('scroll', () => {
         document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
     }, false);
+    /*toggle open on click hamburger icon*/
+        const [open, setOpen] = useState(false);
+
+        const toggleMenu = () => {
+          setOpen(!open);
+        }; {}
 
     return (
       <header className="header">
@@ -16,6 +23,12 @@ const Header = () => {
         </a>
         <div className="closeBtn hover-target" style={{ display: "none" }}>
           <span className="arrow"></span>
+        </div>
+        <div className="mobileMenu" onClick={toggleMenu}> 
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
         <div className="menuWrapper">
             <div className="menuNav">

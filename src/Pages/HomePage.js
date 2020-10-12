@@ -11,10 +11,11 @@ import '../Components/Home/About.scss';
 const HomePage = () => {
     return(
         <div className="container">
-            <h1>Home Page</h1>
-            <p>
+            <h1 className="title">Home</h1>
+            <div>
             <About />
-                {/* <div className="scrollContainer">
+            </div>
+                            {/* <div className="scrollContainer">
                         <Controller>
                             <Scene duration={600} pin={true}>
                                 <div></div>
@@ -28,7 +29,6 @@ const HomePage = () => {
                               
                         </Controller>
                     </div> */}
-            </p>
         </div>
     );
 }

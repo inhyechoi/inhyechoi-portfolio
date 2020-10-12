@@ -17,7 +17,7 @@ const Projects = () => {
             {/* {projectsItemList.map((item) =>(
                 <ProjectItem {...item} key={item.title}/>
             ))} */}
-            <div className="container projectContainer">   
+            <div className="projectContainer">   
                     <h1 className="title">Projects</h1>  
                 <ProjectItem />
                 <ProjectItem />          

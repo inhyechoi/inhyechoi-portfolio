@@ -4,7 +4,7 @@ const Footer = () => {
 
     return(
     <footer className="footer">
-        <div className="container footerContainer">
+        <div className="footerContainer">
             <div className="copyright">
                 <p>© 2020 Inhye. All Rights Reserved.</p>
             </div>

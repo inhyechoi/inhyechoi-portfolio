@@ -12,7 +12,8 @@ footer{
     align-items: center;
     text-align: center;
     line-height: 1.4;
-    padding: 1.5em 0;
+    padding: 1.5em;
+    margin: 0 auto;
     @include tablet{
         flex-direction: row;
         justify-content: space-between;

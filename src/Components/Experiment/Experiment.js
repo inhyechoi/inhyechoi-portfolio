@@ -5,7 +5,7 @@ const Experiment = () => {
 
     return(
         <section className="experimentWrapper">
-            <div className="container experimentContainer">  
+            <div className="experimentContainer">  
                 <div id="experiment">               
                     <h1 className="title">Experiment</h1>
                     <a className="btn experimentBtn" href="https://inhyechoi.github.io/Pong-Game-Project/">Pong Game</a>

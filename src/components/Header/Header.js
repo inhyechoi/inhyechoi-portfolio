@@ -1,7 +1,6 @@
 import React, { useState }from 'react';
 import DarkModeToggle from '../Theme/index.js';
 import { Link } from 'react-router-dom';
-// import MobileMenu from './MobileMenu.js'
 
 const Header = () => {
     

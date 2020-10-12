@@ -14,7 +14,6 @@ import './Components/SplitText/SplitText.scss';
 import './Components/LoginPage/Form.scss';
 import './Components/Header/Header.scss';
 import './Components/SocialMedia/SocialMedia.scss';
-import './Components/Menu.scss';
 import './Components/Projects/Projects.scss';
 import './Components/Experiment/Experiment.scss';
 import './Components/LoginPage/LoginBox.scss';
@@ -42,32 +41,6 @@ const App = () => {
                         <Route path="/projects" component={ProjectPage} />
                         <Route parth="/experiment" component={ExperimentPage} />
                     </Switch>
-                                      {/* <Route exact path="/">
-                            <HomePage />
-                        </Route>   */}
-            {/* <Switch>
-                <Route
-                    path="/about"
-                    component={About} 
-                />
-                <Route
-                    path="/projects"
-                    component={Projects} 
-                />
-                <Route 
-                    path="/experiment"
-                    component={Experiment}
-                />
-            </Switch> */}
-            {/* <Router>    
-                <Link to="/about"></Link>
-
-                <Switch>
-                    <Route path="/about" component="{About}" />
-
-                </Switch> */}
-                {/* <Router exact path="/login">
-                </Router> */}
                 <Footer /> 
         </div>
     );

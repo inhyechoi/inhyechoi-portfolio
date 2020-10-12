@@ -14,7 +14,7 @@ const Header = () => {
 
         const toggleMenu = () => {
           setOpen(!open);
-        }; {}
+        };
 
     return (
       <header className="header">

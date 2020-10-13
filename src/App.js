@@ -31,7 +31,6 @@ const App = () => {
                 <Header />
                 <SocialMedia />
                 <ScrollTop />
-                {/* <HomePage /> */}
                 <div className="middle">
                         </div>
                     <Switch>

@@ -128,11 +128,9 @@
    
 }
 
-
-#inhye-bg {
-    background-color: $secondary-white;
+#inhyeBg{
     width: 100vw;
-    height: 80vh;
+    height: 50vh;
 
     @include mobile {
         height: 600px !important;
@@ -143,134 +141,77 @@
     }
 }
 
-  #rect-prism-1 line, #rect-prism-2 line, #rect-prism-3 line{
-      stroke: $secondary-orange;
-  }
-
-  #circle-1, #circle-2, #circle-3, #circle-4{
-      circle{
-          fill: $secondary-orange;
-          animation: blinker 1.5s linear infinite;
-      }
-  }
-#rect-prism-1 {
-    transform: scale(0.8) translate(-3%, 35%);
+.inhyeBgFilter{
+    pointer-events: none; 
+    position: absolute;
+}
+.inhyeBgWrapper{
+    filter: url("#gooey-react");
 }
 
-#rect-prism-2 {
-    transform: scale(0.8)translate(-12%, 118%);
+svg *{
+    transform-origin: 50%;
 }
 
-#rect-prism-3 {
-    transform: scale(0.7) translate(67%, 103%) rotate(148deg);
+.inhyeBg-g{
+    // animation: 4s linear 0s infinite normal none running rotateBack;
+    animation: 9s linear 0s infinite normal none running rotateBack;
+}
+#inhyeBg .c-1{
+    // animation: 1s linear 0s infinite normal none running rotate;
+    animation: 12s ease-in-out -3s infinite alternate none running blob_four;
+}
+#inhyeBg .c-2{
+    // animation: right 1s linear infinite;
+    animation: 9s ease-in-out -3s infinite alternate none running blob_three;
+}
+#inhyeBg .c-3{
+    animation: 6s ease-in-out -3s infinite alternate none running blob_two;
+}
+#inhyeBg .c-4{
+    animation: 3s ease-in-out -3s infinite alternate none running blob_one;
 }
 
-#rect-prism-4 {
-    transform: scale(0.7) translate(126%, 87%) rotate(248deg);
-}
-
-circle{
-    filter:url(#dropshadow);
-}
-
-#circle-2 {
-    transform: translate(70%, 30%);
-}
-
-#circle-3 {
-    transform: translate(48%, -7.5%);
-}
-
-#circle-4 {
-    transform: translate(18%, 47%);
-}
-
-//   #spiral-1,#spiral-2 {
-//     animation: rotate 2s infinite linear;
-//     transform-origin: 80% 50%;
-//     transform-box: fill-box;
-//     display: inline-block;
-//   }
-//   @keyframes rotate {
-//     0%{
-//         transform: rotate(0deg);
-//     }
-//     100% {
-//       transform: rotate(360deg);
-//     }
-//   }
-#spiral-1,
-#spiral-2,
-#spiral-3,
-#spiral-4 {
-    path {
-        stroke: $primary-color;
+@keyframes blob_four{
+    100% {
+        transform: rotate(-1turn) translate(-12.5%, -12.5%);
     }
 }
 
-#spiral-1 {
-    transform: scale(0.7) translate(38%, 88%) rotate(143deg);
-}
-
-#spiral-2 {
-    transform: scale(0.7, -0.7) translate(82%, -98%);
-}
-
-#spiral-3 {
-    transform: scale(0.7, -0.7) translate(87%, -58%) rotate(112deg);
-}
-
-#spiral-4 {
-    transform: scale(0.7) translate(119%, 115%) rotate(109deg);
-}
-
-#curve-1,
-#curve-2,
-#curve-3 {
-    path {
-        stroke: $primary-color;
+@keyframes blob_three{
+    100% {
+        transform: rotate(-1turn) translate(-12.5%, 12.5%);
     }
 }
 
-#curve-1 {
-    transform: scale(0.8) translate(25%, 3%);
-}
-
-#curve-2 {
-    transform: translate(55%, 33%) rotate(173deg);
-}
-
-#curve-3 {
-    transform: scale(0.8) translate(114%, 114%) rotate(173deg);
-}
-
-//   #spiral-3 {
-//     animation: rotate 2s infinite linear;
-//     animation-direction: reverse;
-//     transform-origin: 80% 50%;
-//     transform-box: fill-box;
-//     display: inline-block;
-//   }
-//   @keyframes rotate {
-//     0%{
-//         transform: rotate(0deg);
-//     }
-//     100% {
-//       transform: rotate(360deg);
-//     }
-//   }
-
-  #curve-1, #curve-2{
-    path{
-        stroke: $secondary-orange;
+@keyframes blob_two{
+    100% {
+        transform: rotate(-1turn) translate(12.5%, -12.5%);
     }
-  }
+}
 
-@keyframes blinker {
-    50% {
-      opacity: 0;
+@keyframes blob_one{
+    100% {
+        transform: rotate(-1turn) translate(-12.5%, -12.5%);
     }
-  }
-  
-//   box-shadow: 0 0 15px #FFE469;
-//   transition: all 0.75s ease;
+}
+
+@keyframes left {
+    100% { transform: rotate(-360deg) }
+}
+
+@keyframes right {
+    100% { transform: rotate(360deg) }
+}
+
+@keyframes rotateBack{
+    100% {
+        transform: rotate(-1turn);
+    }
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(1turn);
+    }
+}

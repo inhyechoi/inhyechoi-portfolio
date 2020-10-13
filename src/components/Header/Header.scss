@@ -24,11 +24,6 @@ header {
     .menuWrapper {
         display: flex;
         width: 53vw;
-        // justify-content: space-evenly;
-        // align-items: center;
-        // overflow: hidden;
-        // position: relative;
-        // width: 80vw;
 
         .menuNav{
             margin: auto;
@@ -75,13 +70,6 @@ header .menuWrapper .menuNav .menu p:nth-child(3):hover ~ .menuLine{
     left: 40%;
 }
 
-// header .menuWrapper .menuNav .menu p:nth-child(4){
-//     display: none;
-//     @include desktop{
-//         display: block;
-//     }
-// }
-
 header .menuWrapper .menuLine{
     transition: all 0.75s ease;
     background: $secondary-orange;
@@ -114,15 +102,15 @@ header .menuWrapper .menuLine{
     }
   }
   
-  :root * {
-    /* Pause the animation */
-    animation-play-state: paused;
-    /* Bind the animation to scroll */
-    animation-delay: calc(var(--scroll) * -1s);
-    /* These last 2 properites clean up overshoot weirdness */
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
-  }
+//   :root * {
+//     /* Pause the animation */
+//     animation-play-state: paused;
+//     /* Bind the animation to scroll */
+//     animation-delay: calc(var(--scroll) * -1s);
+//     /* These last 2 properites clean up overshoot weirdness */
+//     animation-iteration-count: 1;
+//     animation-fill-mode: both;
+//   }
 
   header .menuMobile {
     width: 60px;

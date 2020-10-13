@@ -17,6 +17,7 @@
         "@fortawesome/react-fontawesome": "^0.1.11",
         "eslint": "^6.8.0",
         "gh-pages": "^2.1.1",
+        "gooey-react": "^1.0.1",
         "gsap": "^3.5.1",
         "gulp": "^4.0.2",
         "jquery": "^3.5.1",

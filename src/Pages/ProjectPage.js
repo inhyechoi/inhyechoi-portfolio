@@ -4,7 +4,6 @@ import React from 'react';
 import '../Style/index.scss';
 import '../mixins.scss';
 import '../variables.scss';
-import '../Style/fonts.scss';
 import '../Components/Projects/Projects.scss';
 
 const ProjectPage = () => {

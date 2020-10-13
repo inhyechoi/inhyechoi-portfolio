@@ -21,7 +21,6 @@ import './Components/Footer/Footer.scss';
 import './Components/ScrollTop/ScrollTop.scss';
 import './mixins.scss';
 import './variables.scss';
-import './Style/fonts.scss';
 import './Style/index.scss';
 import './App.scss';
 

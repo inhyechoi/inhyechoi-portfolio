@@ -5,7 +5,6 @@ import About from '../Components/Home/About';
 import '../Style/index.scss';
 import '../mixins.scss';
 import '../variables.scss';
-import '../Style/fonts.scss';
 import '../Components/Home/About.scss';
 
 const HomePage = () => {

@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './Components/Header/Header.js';
 import SocialMedia from './Components/SocialMedia/SocialMedia.js';
+import ScrollTop from './Components/ScrollTop/ScrollTop';
+import Header from './Components/Header/Header.js';
 import HomePage from './Pages/HomePage.js';
 import ProjectPage from './Pages/ProjectPage.js';
 import ExperimentPage from './Pages/ExperimentPage.js';
 import Footer from './Components/Footer/Footer.js';
-import ScrollTop from './Components/ScrollTop/ScrollTop';
 import { Route, Switch } from 'react-router-dom';
 
 import './App.scss';

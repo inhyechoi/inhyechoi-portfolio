@@ -19,10 +19,10 @@ const About = () => {
             <div className="inhyeBgWrapper">
                 <svg id="inhyeBg" width="100%" height="100%" xmlms="https://www.w3.org/TR/SVG/" viewBox="0 0 523.87 535.79">
                     <g className="inhyeBg-g">
-                        <circle className="c-1" cx="50%" cy="50%" r="42" fill="lightseagreen"></circle>
-                        <circle className="c-2" cx="50%" cy="50%" r="36" fill="mediumaquamarine"></circle>  
-                        <circle className="c-3" cx="50%" cy="50%" r="30" fill="palegreen"></circle>
-                        <circle className="c-4" cx="50%" cy="50%" r="24" fill="mediumspringgreen"></circle>
+                        <circle className="c-1" cx="50%" cy="50%" r="42" ></circle>
+                        <circle className="c-2" cx="50%" cy="50%" r="36" ></circle>  
+                        <circle className="c-3" cx="50%" cy="50%" r="30" ></circle>
+                        <circle className="c-4" cx="50%" cy="50%" r="24" ></circle>
                     </g>
                     {/* <p><Link to="/about">about</Link></p> */}
                     <foreignObject x="0%" y="70%" width="300" height="400" className="aboutHeader">

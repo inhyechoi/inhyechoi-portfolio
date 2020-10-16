@@ -12,7 +12,15 @@ header {
     color: var(--color);
     box-shadow: 0.1em 0.1em 0.3em rgba(0,0,0,0.1);
     z-index: 3;
+    height: 150px;
+    @include desktop{
+        height: 180px;
+    }
 
+    .logo{
+        display: flex;
+        align-items: center;
+    }
     img {
         display: flex;
         justify-content: flex-start;
@@ -32,6 +40,7 @@ header {
             justify-content: flex-end;
             @include desktop{
                 display: block;
+                padding-right: 43px;
             }
         }
 
@@ -70,6 +79,12 @@ header .menuWrapper .menuNav .menu p:nth-child(3):hover ~ .menuLine{
     left: 40%;
 }
 
+header .menuWrapper .menuNav .menu p:nth-child(4){
+    @include desktop{
+        width: 12%;
+    }
+}
+
 header .menuWrapper .menuLine{
     transition: all 0.75s ease;
     background: $secondary-orange;
@@ -82,7 +97,10 @@ header .menuWrapper .menuLine{
 }
 
 .switch{
-    margin-right: 2em;
+    margin-right: 60px;
+    @include desktop{
+        margin-right: 86px;
+    }
 }
 
 .progress {
@@ -111,78 +129,3 @@ header .menuWrapper .menuLine{
     animation-iteration-count: 1;
     animation-fill-mode: both;
   }
-
-  header .menuMobile {
-    width: 60px;
-    height: 45px;
-    position: relative;
-    margin: 50px auto;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-  }
-  
-  .menuMobile span {
-    display: block;
-    position: absolute;
-    height: 9px;
-    width: 100%;
-    background: #d8d8d8;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-  }
-  
-  
-  .menuMobile span:nth-child(1) {
-    top: 0px;
-  }
-  
-  .menuMobile span:nth-child(2),.menuMobile span:nth-child(3) {
-    top: 18px;
-  }
-  
-  .menuMobile span:nth-child(4) {
-    top: 36px;
-  }
-  
-  .menuMobile.open span:nth-child(1) {
-    top: 18px;
-    width: 0%;
-    left: 50%;
-  }
-  
-  .menuMobile.open span:nth-child(2) {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
-  
-  .menuMobile.open span:nth-child(3) {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-  }
-  
-  .menuMobile.open span:nth-child(4) {
-    top: 18px;
-    width: 0%;
-    left: 50%;
-  }
-  

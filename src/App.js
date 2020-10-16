@@ -5,7 +5,9 @@ import Header from './Components/Header/Header.js';
 import HomePage from './Pages/HomePage.js';
 import ProjectPage from './Pages/ProjectPage.js';
 import ExperimentPage from './Pages/ExperimentPage.js';
+import DesignGuidePage from './Pages/DesignGuidePage.js'
 import Footer from './Components/Footer/Footer.js';
+// import MobileMenu from './Components/Header/MobileMenu.js';
 import { Route, Switch } from 'react-router-dom';
 
 import './App.scss';
@@ -28,6 +30,7 @@ const App = () => {
 
     return (
         <div className="App">
+                {/* <MobileMenu /> */}
                 <Header />
                 <SocialMedia />
                 <ScrollTop />
@@ -37,7 +40,8 @@ const App = () => {
                         {/* <Route path="/" exact render={ () => <HomePage/>} /> */}
                         <Route exact path="/" component={HomePage} />
                         <Route path="/projects" component={ProjectPage} />
-                        <Route parth="/experiment" component={ExperimentPage} />
+                        <Route path="/experiment" component={ExperimentPage} />
+                        <Route path="/designguide" component={DesignGuidePage} />
                     </Switch>
                 <Footer /> 
         </div>

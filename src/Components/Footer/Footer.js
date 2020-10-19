@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
             <div className="guideBtn">
                 <Link to={'/designguide'} className="nav-link">design guide</Link>
-                <Link href="mailto:inhyechoi0404@gmail.com">contact me</Link>
+                <a href="mailto:inhyechoi0404@gmail.com">contact me</a>
         </div>
         </div>
       </footer>

@@ -38,11 +38,11 @@ const About = () => {
             <svg id="inhye-txt" width="100%" height="100%" xmlms="https://www.w3.org/TR/SVG/" viewBox="0 0 824.65 485.8">
                 <foreignObject x="60%" y="70%" width="300" height="400" className="aboutHeader">
                     <div xmlns="https://www.w3.org/TR/SVG/">
-                        <h1 class="title">
+                        <h1 className="title">
                             <span>Hello I’m Inhye,a  </span>
                             <span>Front-end Developer.</span>
                         </h1>
-                        <h2 class="title">
+                        <h2 className="title">
                             <span>My passion is in </span>
                             <span>creative frontend </span>
                         <span>development</span>

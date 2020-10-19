@@ -7,6 +7,11 @@
     }
 }
 
+.mobileMenu #experiment{
+    align-items: normal;
+    justify-content: flex-start;
+}
+
 .bm-burger-button {
     position: relative;
     width: 36px;
@@ -88,11 +93,17 @@
   
   /* Individual item */
   .bm-item {
-    display: inline-block;
     margin: 1em auto;
+    transform: translate3d(0px, 0px, 0px) !important;
+    display:flex !important;
+    flex-direction: column;
   }
   
   /* Styling of overlay */
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
+  }
+
+  .menu-item:hover{
+      color: $secondary-orange
   }

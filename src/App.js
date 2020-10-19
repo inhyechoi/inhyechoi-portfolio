@@ -30,14 +30,12 @@ const App = () => {
 
     return (
         <div className="App">
-                {/* <MobileMenu /> */}
                 <Header />
                 <SocialMedia />
                 <ScrollTop />
                 <div className="middle">
-                        </div>
+                </div>
                     <Switch>
-                        {/* <Route path="/" exact render={ () => <HomePage/>} /> */}
                         <Route exact path="/" component={HomePage} />
                         <Route path="/projects" component={ProjectPage} />
                         <Route path="/experiment" component={ExperimentPage} />

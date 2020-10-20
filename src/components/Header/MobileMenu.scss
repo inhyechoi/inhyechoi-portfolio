@@ -1,7 +1,12 @@
 @import '../../variables.scss';
 @import '../../mixins.scss';
 
+.mobileMenuContainer{
+    z-index:100;
+}
+
 .mobileMenu{
+    z-index:101;
     @include desktop{
         display: none;
     }

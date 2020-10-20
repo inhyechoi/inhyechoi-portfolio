@@ -18,7 +18,7 @@ const Header = () => {
         <div className="closeBtn hover-target" style={{ display: "none" }}>
           <span className="arrow"></span>
         </div>
-        <div className="menuWrapper">
+        <div className="menuWrapper"  style={{height: `100%`}}>
             <div className="menuNav">
             <div className="menu">
                 <p>

@@ -1,7 +1,7 @@
 @import '../../variables.scss';
 
 .socialBar {
-    background-color: rgba(253, 253, 253, 0.3);
+    background-color: $primary-light-alternative;
     position: fixed;
     right: 3%;
     top: 36.5%;
@@ -24,7 +24,7 @@
     height: 35px;
     border-radius: 50%;
     margin: 0.5em;
-    background-color: rgba(253, 253, 253, 0.3);
+    background-color: $primary-light-alternative;
     transition: all 0.3s ease-in-out;
 }
 
@@ -36,7 +36,7 @@
     height: 35px;
     position: inherit;
     color: $secondary-blue;
-    filter: drop-shadow(0 0 7px white);
+    filter: drop-shadow(0 0 7px $primary-light);
 }
 
 .socialBar a:hover,

@@ -4,7 +4,7 @@ import Goo from 'gooey-react'
 const About = () => {
 
     return(
-        <div className="about">
+        <div className="about" style={{height: `100%`}}>
             <title>Inhye Choi</title>
             <Goo intensity="weak">
             <svg className="inhyeBgFilter">

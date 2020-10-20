@@ -15,10 +15,6 @@
     filter: url("#gooey-react");
 }
 
-#inhye-txt{
-    background-color: white;
-}
-
 svg *{
     transform-origin: 50%;
 }
@@ -30,17 +26,17 @@ svg *{
 #inhyeBg .c-1{
     // animation: 1s linear 0s infinite normal none running rotate;
     animation: 12s ease-in-out -3s infinite alternate none running blob_four;
-    fill: rgb(166, 57, 230);
+    fill: $secondary-purple-dark;
 }
 #inhyeBg .c-2{
     // animation: right 1s linear infinite;
     animation: 9s ease-in-out -3s infinite alternate none running blob_three;
-    fill: rgb(247, 193, 15);
+    fill: $secondary-yellow;
 
 }
 #inhyeBg .c-3{
     animation: 6s ease-in-out -3s infinite alternate none running blob_two;
-    fill: rgb(208, 129, 224);
+    fill: $secondary-purple-light;
 }
 #inhyeBg .c-4{
     animation: 3s ease-in-out -3s infinite alternate none running blob_one;

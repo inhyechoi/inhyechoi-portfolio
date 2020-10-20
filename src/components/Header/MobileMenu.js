@@ -12,9 +12,11 @@ const MobileMenu = () => {
     // const showSettings = event =>{
     //     event.preventDefault();
     // }
+    
   return (
-        <div className="mobileMenu" id="outer-container"> 
-            <Menu right pageWrapId={ "page-wrap" } outerContainerId={ "outer-container"} isOpen={ false }>
+        <div className="mobileMenuContainer">
+        <div className="mobileMenu" id="outer-container" style={{height: `100%`}}> 
+            <Menu right pageWrapId={ "page-wrap" } outerContainerId={ "outer-container"} isOpen={ false } style={{ height: `100%`, overFlow: `auto`}}>
                 <main id="page-wrap">
                     <MyContext.Provider value={{
                         isMenuOpen: menuOpenState,
@@ -28,6 +30,7 @@ const MobileMenu = () => {
                     {/* <a onClick={ showSettings } className="menu-item--small" href="/">Settings</a> */}
                 </main>
             </Menu>
+        </div>
         </div>
   )
 }

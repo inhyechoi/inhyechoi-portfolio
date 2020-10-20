@@ -29,7 +29,7 @@ import './App.scss';
 const App = () => {
 
     return (
-        <div className="App">
+        <div className="App" height="100%">
                 <Header />
                 <SocialMedia />
                 <ScrollTop />

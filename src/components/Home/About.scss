@@ -144,10 +144,10 @@ svg *{
         span {
             width: 100%;
             float: left;
-            color: $primary-dark-color;
+            color: $primary-dark-alternative;
+            text-shadow: 1px 1px #ffffff;
             clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 80%);
             transform: translateY(-50px);
-            // animation-name: aboutTitleMotion;
             opacity: 0;      
           }
     }

@@ -1,3 +1,8 @@
+import {precacheAndRoute} from 'workbox-precaching';
+// Your other import statements go here.
+
+precacheAndRoute(self.__WB_MANIFEST);
+// Your other SW code goes here.
 /**
  * Welcome to your Workbox-powered service worker!
  *
@@ -37,3 +42,4 @@ workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/i
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });
+

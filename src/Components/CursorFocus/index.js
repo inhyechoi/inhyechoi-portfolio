@@ -72,10 +72,7 @@ const CursorFocus = () =>{
     if (typeof navigator !== "undefined" && isMobile()) return null;
     return (
         <div>
-          <div
-            className={cursorClasses}
-            style={{ left: `${position.x}px`, top: `${position.y}px` }}
-          />
+            <div className={cursorClasses} style={{ left: `${position.x}px`, top: `${position.y}px` }}></div>
         </div>
       );  
 }

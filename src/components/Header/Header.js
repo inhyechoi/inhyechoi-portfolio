@@ -13,7 +13,7 @@ const Header = () => {
     return (
       <header className="header">
         <a href="/" className="logo">
-            <img src={require('../../Assets/inhye-main-logo.svg')} alt="frontend developer logo design web graphic" style={{ width: "50%" }}/>
+            <img src={require('../../Assets/inhye-main-logo.svg').default} alt="frontend developer logo design web graphic" style={{ width: "50%" }}/>
         </a>
         <div className="closeBtn hover-target" style={{ display: "none" }}>
           <span className="arrow"></span>
@@ -22,7 +22,7 @@ const Header = () => {
             <div className="menuNav">
             <div className="menu">
                 <p>
-                    <Link to={'/'} className="nav-link">about</Link>    
+                    <Link to={'/'} className="nav-link mask">about</Link>    
                 </p>
                 <p>
                     <Link to={'/projects'} className="nav-link">projects</Link>

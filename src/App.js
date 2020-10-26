@@ -7,8 +7,11 @@ import ProjectPage from './Pages/ProjectPage.js';
 import ExperimentPage from './Pages/ExperimentPage.js';
 import DesignGuidePage from './Pages/DesignGuidePage.js'
 import Footer from './Components/Footer/Footer.js';
+import CursorFocus from './Components/CursorFocus/index.js';
+
 // import MobileMenu from './Components/Header/MobileMenu.js';
 import { Route, Switch } from 'react-router-dom';
+// import './Components/CursorFocus/CursorFocus';
 
 import './App.scss';
 import './Components/Home/About.scss';
@@ -21,6 +24,7 @@ import './Components/Experiment/Experiment.scss';
 import './Components/LoginPage/LoginBox.scss';
 import './Components/Footer/Footer.scss';
 import './Components/ScrollTop/ScrollTop.scss';
+import './Components/CursorFocus/CursorFocus.scss';
 import './mixins.scss';
 import './variables.scss';
 import './Style/index.scss';
@@ -30,6 +34,7 @@ const App = () => {
 
     return (
         <div className="App" height="100%">
+                <CursorFocus />
                 <Header />
                 <SocialMedia />
                 <ScrollTop />

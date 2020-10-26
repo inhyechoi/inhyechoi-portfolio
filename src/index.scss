@@ -31,6 +31,10 @@ li {
   clear: both;
 }
 
+html, body, a, label{
+    cursor: none;
+}
+
 body {
   // height: 100vh;
   font-family: $secondary-font;

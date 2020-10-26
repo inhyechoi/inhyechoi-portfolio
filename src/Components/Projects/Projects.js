@@ -8,8 +8,8 @@ const Projects = () => {
         <section className="projectsWrapper">
             <div className="projectContainer">   
                     <h1 className="title">Projects</h1>  
-                <ProjectItem />
-                <ProjectItem />          
+                {/* <ProjectItem />
+                <ProjectItem />           */}
             </div>
         </section>
     );

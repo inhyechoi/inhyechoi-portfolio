@@ -9,7 +9,9 @@ import './ProjectItem.scss';
 // import mobileImage from '../../Assets/Images/Projects/Mobile/JJEntertainment_changmo_jedharper_instagram_square.jpg'
 
 
-const ProjectItem = ({ viewProject }) => {
+const ProjectItem = () => {
+// const ProjectItem = ({ viewProject }) => {
+
     // const { windowWidth } = useWindowWidth();
 
     // const projectStyle = (src) => ({
@@ -17,12 +19,15 @@ const ProjectItem = ({ viewProject }) => {
     //   })
 
     // const { projects } =() => JSON.parse(data)
+
     return(
         <div className="projectItem">
             {/* <div style={{ backgroundImage: `url(${ el.backgroundImage })`}}> */}
-            {projects.map((el, i)=>{
+            {projects.map((el)=>{
                 return(
-                <div key={el.id} style={{backgroundImage: `url(${el.picture})`, width: 300, height: 300}}>
+                <div key={el.id} 
+                
+                style={{backgroundImage: `url(${el.picture})`, width: 300, height: 300, display: `block`}}>
                 {/* // `url(${el.picture[i]})`, width: 300, height: 300}}>        */}
                 {/* <img alt="" width="250" height="300"src={images[el.picture]} key={el.id} /> */}
                 {/* <div key={el.id} style={images[el.picture]} style={{width: 300, height: 300}}>        */}
@@ -48,7 +53,7 @@ const ProjectItem = ({ viewProject }) => {
                     </ul>
                     );
                 })} 
-                <div className="viewProject">{viewProject}</div>
+                // <div className="viewProject">{viewProject}</div>
                 </>
                 
             )}

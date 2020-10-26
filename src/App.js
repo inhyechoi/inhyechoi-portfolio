@@ -24,7 +24,7 @@ import './Components/Experiment/Experiment.scss';
 import './Components/LoginPage/LoginBox.scss';
 import './Components/Footer/Footer.scss';
 import './Components/ScrollTop/ScrollTop.scss';
-import './Components/CursorFocus/CursorFocus.scss';
+// import './Components/CursorFocus/CursorFocus.scss';
 import './mixins.scss';
 import './variables.scss';
 import './Style/index.scss';

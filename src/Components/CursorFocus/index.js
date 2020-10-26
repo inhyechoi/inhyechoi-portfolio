@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import classNames from "classnames";
+import './CursorFocus.scss';
 
 const CursorFocus = () =>{
 

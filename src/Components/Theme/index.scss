@@ -63,3 +63,29 @@
 .slider.round:before {
     border-radius: 50%;
 }
+
+.on {
+    display: none;
+    left: 31%;
+}
+
+.off {
+    left: 70%;
+}
+
+.on, .off {
+    color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+}
+
+input:checked+ .slider .on {
+    display: block;
+}
+
+input:checked + .slider .off {
+    display: none;
+}

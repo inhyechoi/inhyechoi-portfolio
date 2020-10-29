@@ -2,8 +2,8 @@ import React, {useEffect, useState} from 'react';
 import classNames from "classnames";
 import './CursorFocus.scss';
 
+//credit to andriy
 const CursorFocus = () =>{
-
     const isMobile = () => {
         const ua = navigator.userAgent;
         return /Android|Mobi/i.test(ua);

@@ -1,12 +1,12 @@
 [
     {   
         "id": 0,
-        "title": "Projecttitle1",
-        "category": "frontend development",
+        "title": "Afterparty",
+        "category": "project coordinate",
         "picture": "../src/Assets/Images/Projects/Desktop/Portflio_A4.png",
-        "date": "Feb 2020",
+        "date": "Wed April 01 2020 11:39:00 GMT-0700 (PDT)",
         "shortDescription": "web design agency lead development and project management",
-        "url": "https://www.undefinedteam.com/",
+        "url": "https://jjent.netlify.app/",
         "description": "",
         "desktop": [],
         "mobile": []

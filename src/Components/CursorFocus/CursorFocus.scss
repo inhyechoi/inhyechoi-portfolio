@@ -8,7 +8,7 @@
     pointer-events: none;
     transition: all 150ms ease;
     transition-property: background-color, opacity, transform, mix-blend-mode;
-    z-index: 9999 !important;
+    z-index: 99 !important;
     mix-blend-mode: difference;
   }
   
@@ -18,7 +18,7 @@
   
   .cursor--link-hovered {
     transform: translate(-50%, -50%) scale(1.25);
-    background-color: #fefefe;;
+    background-color: #fefefe;
   }
   
   .cursor--clicked {

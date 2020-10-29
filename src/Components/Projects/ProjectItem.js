@@ -19,6 +19,10 @@ const ProjectItem = () => {
     //   })
 
     // const { projects } =() => JSON.parse(data)
+    
+    // const imageUrl ={
+    //    backgroundImage: 'url(' + require('./../../Assets/Images/Projects/Desktop' + el.picture) + ')'
+    // }
 
     return(
         <div className="projectItem">
@@ -27,13 +31,13 @@ const ProjectItem = () => {
                 return(
                 <div key={el.id} 
                 
-                style={{backgroundImage: `url(${el.picture})`, width: 300, height: 300, display: `block`}}>
+                style={{backgroundImage: `url(${ el.picture} )`, width: 300, height: 300, display: `block`}}>
                 {/* // `url(${el.picture[i]})`, width: 300, height: 300}}>        */}
                 {/* <img alt="" width="250" height="300"src={images[el.picture]} key={el.id} /> */}
                 {/* <div key={el.id} style={images[el.picture]} style={{width: 300, height: 300}}>        */}
                     <ul>
                         <li>{el.title}</li>
-                        <li>{el.url}</li>
+                        {/* <li>{el.url}</li> */}
                         <li>{el.category}</li>
                     </ul>
                 </div>

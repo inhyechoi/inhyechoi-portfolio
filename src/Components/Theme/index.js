@@ -36,8 +36,8 @@ const DarkModeToggle = () => {
                 onChange={() => toggleThemeChange()}
             />
             <span className="slider round">
-                <span class="on">ON</span>
-                <span class="off">OFF</span>
+                <span className="on">ON</span>
+                <span className="off">OFF</span>
             </span> 
         </label>
       )

@@ -7,7 +7,7 @@ const Projects = () => {
     return(
         <section className="projectsWrapper">
             <div className="projectContainer">   
-                <h1 className="title">Projects</h1>  
+                <h1 className="titlePage">Projects</h1>  
                 {/* <ProjectItem />     */}
             </div>
         </section>

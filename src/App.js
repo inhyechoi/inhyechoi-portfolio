@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import SocialMedia from './Components/SocialMedia/SocialMedia.js';
 import ScrollTop from './Components/ScrollTop/ScrollTop';
 import Header from './Components/Header/Header.js';
@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage.js';
 import ProjectPage from './Pages/ProjectPage.js';
 import ExperimentPage from './Pages/ExperimentPage.js';
 import DesignGuidePage from './Pages/DesignGuidePage.js'
+import NotFound from './Pages/NotFound.js';
 import Footer from './Components/Footer/Footer.js';
 import CursorFocus from './Components/CursorFocus/index.js';
 
@@ -31,24 +32,43 @@ import './Style/index.scss';
 import './App.scss';
 
 const App = () => {
+    // const [ isLoading, setLoading ] = useState(true);
 
+    // function fakeRequest() {
+    //     return new Promise(resolve => setTimeout(() => resolve(), 2500));
+    // }
+
+    // useEffect(() => {
+    //     fakeRequest().then(() => {
+    //       const el = document.querySelector(".loader-container");
+    //       if (el) {
+    //         el.remove();
+    //         setLoading(!isLoading);
+    //       }
+    //     });
+    //   }, []);
+    
+    //   if (isLoading) {
+    //     return null;
+    //   }
+    
     return (
         <div className="App" height="100%">
-                <CursorFocus />
-                <Header />
-                <SocialMedia />
-                <ScrollTop />
-                <div className="middle">
-                </div>
-                    <Switch>
-                        <Route exact path="/" component={HomePage} />
-                        <Route path="/projects" component={ProjectPage} />
-                        <Route path="/experiment" component={ExperimentPage} />
-                        <Route path="/designguide" component={DesignGuidePage} />
-                    </Switch>
-                <Footer /> 
+            <CursorFocus />
+            <Header />
+            <SocialMedia />
+            <ScrollTop />
+            <div className="middle">
+            </div>
+                <Switch>
+                    <Route exact path="/" component={HomePage} />
+                    <Route path="/projects" component={ProjectPage} />
+                    <Route path="/experiment" component={ExperimentPage} />
+                    <Route path="/designguide" component={DesignGuidePage} />
+                    <Route path ="/404" component={NotFound} />
+                </Switch>
+            <Footer /> 
         </div>
     );
 }
-
 export default App

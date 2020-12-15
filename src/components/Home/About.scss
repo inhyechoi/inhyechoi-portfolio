@@ -232,3 +232,19 @@ svg *{
     }
 }
 
+.resumeBtn{
+    background: $secondary-yellow;
+    border: 3px solid $secondary-yellow;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    height: 56px;
+    width: 178px;
+    margin: 2em 3em;
+    @include tablet{
+        margin: 2em 5em;
+    }
+}

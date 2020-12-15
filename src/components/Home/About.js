@@ -1,10 +1,12 @@
 import React from 'react';
 import Goo from 'gooey-react'
+import Pdf from '../../Assets/Files/Inhye_Choi_Resume.pdf';
 
 const About = () => {
 
     return(
         <div className="about" style={{height: `100%`}}>
+            <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a>
             <title>Inhye Choi</title>
             <Goo intensity="weak">
             <svg className="inhyeBgFilter">

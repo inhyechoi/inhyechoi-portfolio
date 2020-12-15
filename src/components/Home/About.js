@@ -1,12 +1,44 @@
 import React from 'react';
+// import { PDFDownloadLink, Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
 import Goo from 'gooey-react'
 import Pdf from '../../Assets/Files/Inhye_Choi_Resume.pdf';
+
+
+// const styles = StyleSheet.create({
+//     page: {
+//       flexDirection: 'row',
+//       backgroundColor: '#E4E4E4'
+//     },
+//     section: {
+//       margin: 10,
+//       padding: 10,
+//       flexGrow: 1
+//     }
+//   });
+  
+//   const MyDoc = () => (
+//     <Document>
+//       <Page size="A4" style={styles.page}>
+//         <View style={styles.section}>
+//           <Text>Section #1</Text>
+//         </View>
+//         <View style={styles.section}>
+//           <Text>Section #2</Text>
+//         </View>
+//       </Page>
+//     </Document>
+//   );
 
 const About = () => {
 
     return(
         <div className="about" style={{height: `100%`}}>
+            {/* <a class="btn btn-danger" role="button" href="../../Assets/Files/Inhye_Choi_Resume.pdf" download="inhye_resume">Download</a>
+            <a href="../../Assets/Files/Inhye_Choi_Resume.pdf" download="Inhye_Choi_resume.pdf">Download</a> */}
+
+            {/* <a href={ Pdf } target="_blank" className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a> */}
             <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a>
+
             <title>Inhye Choi</title>
             <Goo intensity="weak">
             <svg className="inhyeBgFilter">
@@ -52,6 +84,9 @@ const About = () => {
                     </div>
                 </foreignObject>
             </svg>
+            {/* <PDFDownloadLink document={<MyDoc />} href="../../Assets/Files/Inhye_Choi_Resume.pdf" className="resumeBtn">
+                {({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download Resume')}
+            </PDFDownloadLink> */}
         </div>
     );
 }

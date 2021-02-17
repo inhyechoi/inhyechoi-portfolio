@@ -37,7 +37,7 @@ const About = () => {
             <a href="../../Assets/Files/Inhye_Choi_Resume.pdf" download="Inhye_Choi_resume.pdf">Download</a> */}
 
             {/* <a href={ Pdf } target="_blank" className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a> */}
-//             <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a>
+            <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a>
 
             <title>Inhye Choi</title>
             <Goo intensity="weak">

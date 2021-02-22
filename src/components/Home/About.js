@@ -1,8 +1,6 @@
 import React from 'react';
-// import { PDFDownloadLink, Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
 import Goo from 'gooey-react'
-import Pdf from '../../Assets/Files/Inhye_Choi_Resume.pdf';
-
+// import Pdf from '../../Assets/Files/Inhye_Choi_Resume.pdf';
 
 // const styles = StyleSheet.create({
 //     page: {
@@ -34,28 +32,19 @@ const About = () => {
     return(
         <div className="about" style={{height: `100%`}}>
             {/* <a class="btn btn-danger" role="button" href="../../Assets/Files/Inhye_Choi_Resume.pdf" download="inhye_resume">Download</a>
-            <a href="../../Assets/Files/Inhye_Choi_Resume.pdf" download="Inhye_Choi_resume.pdf">Download</a> */}
+            <a href="../../Assets/Files/Inhye_Choi_Resume.pdf" download="Inhye_Choi_resume.pdf">Download</a>
 
-            {/* <a href={ Pdf } target="_blank" className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a> */}
-            <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a>
+            <a href={ Pdf } target="_blank" className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a>
+            <form method="get" action="Inhye_Choi_resume.pdf">
+                <button className="resumeBtn" type="submit">Download Resume</button>
+            </form> */}
+            
+            {/* <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a> */}
 
             <title>Inhye Choi</title>
             <Goo intensity="weak">
             <svg className="inhyeBgFilter">
                 <defs>
-                    {/* <filter colorInterpolationFilters="sRGB" id="gooey-react">
-                        <feGaussianBlur stdDeviation="12"></feGaussianBlur>
-                        <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 72 -36">
-                        </feColorMatrix>
-                    </filter> */}
-                    {/* <filter id="gooey-title-react">
-                        <feGaussianBlur in="SourceAlpha" stdDeviation="0" />
-                        <feOffset dx="0" dy="0" />
-                        <feMerge>
-                            <feMergeNode />
-                            <feMergeNode in="SourceGraphic" />
-                        </feMerge>
-                    </filter> */}
                 </defs>
             </svg>
             <div className="inhyeBgWrapper">
@@ -84,9 +73,6 @@ const About = () => {
                     </div>
                 </foreignObject>
             </svg>
-            {/* <PDFDownloadLink document={<MyDoc />} href="../../Assets/Files/Inhye_Choi_Resume.pdf" className="resumeBtn">
-                {({ blob, url, loading, error }) => (loading ? 'Loading document...' : 'Download Resume')}
-            </PDFDownloadLink> */}
         </div>
     );
 }

@@ -8,7 +8,7 @@ const Projects = () => {
         <section className="projectsWrapper">
             <div className="projectContainer">   
                 <h1 className="titlePage">Projects</h1>  
-                {/* <ProjectItem />     */}
+                <ProjectItem />    
             </div>
         </section>
     );

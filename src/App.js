@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+// import React, { useEffect, useState } from 'react';
 import SocialMedia from './Components/SocialMedia/SocialMedia.js';
 import ScrollTop from './Components/ScrollTop/ScrollTop';
 import Header from './Components/Header/Header.js';
@@ -12,7 +13,6 @@ import CursorFocus from './Components/CursorFocus/index.js';
 
 // import MobileMenu from './Components/Header/MobileMenu.js';
 import { Route, Switch } from 'react-router-dom';
-// import './Components/CursorFocus/CursorFocus';
 
 import './App.scss';
 import './Components/Home/About.scss';
@@ -25,33 +25,13 @@ import './Components/Experiment/Experiment.scss';
 import './Components/LoginPage/LoginBox.scss';
 import './Components/Footer/Footer.scss';
 import './Components/ScrollTop/ScrollTop.scss';
-// import './Components/CursorFocus/CursorFocus.scss';
 import './mixins.scss';
 import './variables.scss';
 import './Style/index.scss';
 import './App.scss';
 
 const App = () => {
-    // const [ isLoading, setLoading ] = useState(true);
 
-    // function fakeRequest() {
-    //     return new Promise(resolve => setTimeout(() => resolve(), 2500));
-    // }
-
-    // useEffect(() => {
-    //     fakeRequest().then(() => {
-    //       const el = document.querySelector(".loader-container");
-    //       if (el) {
-    //         el.remove();
-    //         setLoading(!isLoading);
-    //       }
-    //     });
-    //   }, []);
-    
-    //   if (isLoading) {
-    //     return null;
-    //   }
-    
     return (
         <div className="App" height="100%">
             <CursorFocus />

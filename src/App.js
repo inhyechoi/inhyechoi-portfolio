@@ -45,7 +45,7 @@ const App = () => {
                     <Route path="/projects" component={ProjectPage} />
                     <Route path="/experiment" component={ExperimentPage} />
                     <Route path="/designguide" component={DesignGuidePage} />
-                    <Route path ="/404" component={NotFound} />
+                    <Route component={NotFound} />
                 </Switch>
             <Footer /> 
         </div>

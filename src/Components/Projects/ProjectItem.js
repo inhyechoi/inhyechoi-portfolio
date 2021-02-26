@@ -26,16 +26,15 @@ const ProjectItem = () => {
 
     return(
         <div className="projectItem">
-            {/* <div style={{ backgroundImage: `url(${ el.backgroundImage })`}}> */}
             {projects.map((el)=>{
                 return(
-                <div key={el.id} 
-                
-                style={{backgroundImage: `url(${el.backgroundImage})`, width: 300, height: 300, display: `block`}}>
+                <div className="projectItemBg" key={el.id} 
+                style={{backgroundImage: `url(${el.picture})`, width: 300, height: 300, backgroundSize: 'cover', display: `block`}}>
                 {/* // `url(${el.picture[i]})`, width: 300, height: 300}}>        */}
                 {/* <img alt="" width="250" height="300"src={images[el.picture]} key={el.id} /> */}
                 {/* <div key={el.id} style={images[el.picture]} style={{width: 300, height: 300}}>        */}
                     <ul>
+                    {/* <img className="projectBgImg" src={require("../../Assets/Images/Projects/Desktop/Portfolio_A4.png").default} alt="" /> */}
                         <li>{el.title}</li>
                         {/* <li>{el.url}</li> */}
                         <li>{el.category}</li>

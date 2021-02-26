@@ -10,7 +10,7 @@ const Footer = () => {
                 <p>© 2020 Inhye. All Rights Reserved.</p>
             </div>
             <div className="guideBtn">
-                <Link to={'/designguide'} className="nav-link">design guide</Link>
+                <Link to={'/designguide'}>design guide</Link>
                 <a href="mailto:inhyechoi0404@gmail.com">contact me</a>
         </div>
         </div>

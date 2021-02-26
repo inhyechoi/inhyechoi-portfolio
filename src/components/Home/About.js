@@ -1,6 +1,6 @@
 import React from 'react';
 import Goo from 'gooey-react'
-// import Pdf from '../../Assets/Files/Inhye_Choi_Resume.pdf';
+import Pdf from '../../Assets/Files/Inhye_Choi_Resume.pdf';
 
 // const styles = StyleSheet.create({
 //     page: {
@@ -31,15 +31,13 @@ const About = () => {
 
     return(
         <div className="about" style={{height: `100%`}}>
-            {/* <a class="btn btn-danger" role="button" href="../../Assets/Files/Inhye_Choi_Resume.pdf" download="inhye_resume">Download</a>
-            <a href="../../Assets/Files/Inhye_Choi_Resume.pdf" download="Inhye_Choi_resume.pdf">Download</a>
-
-            <a href={ Pdf } target="_blank" className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a>
-            <form method="get" action="Inhye_Choi_resume.pdf">
-                <button className="resumeBtn" type="submit">Download Resume</button>
-            </form> */}
+                        <div className="aboutBtnWrapper">
+                <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a>
+            </div>
+{/* 
+            <a href={ Pdf } target="_blank" className="resumeBtn" download="Inhye_Choi_resume.pdf">Resume</a>
             
-            {/* <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a> */}
+            <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Resume</a> */}
 
             <title>Inhye Choi</title>
             <Goo intensity="weak">

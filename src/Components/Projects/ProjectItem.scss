@@ -19,6 +19,10 @@
     }
 }
 
+.projectItemBg{
+    // background-size: cover;
+}
+
 .projectItem:nth-of-type(odd){
     @include tablet{
         margin-left: 5%;

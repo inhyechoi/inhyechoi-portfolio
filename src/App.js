@@ -7,6 +7,7 @@ import HomePage from './Pages/HomePage.js';
 import ProjectPage from './Pages/ProjectPage.js';
 import ExperimentPage from './Pages/ExperimentPage.js';
 import DesignGuidePage from './Pages/DesignGuidePage.js'
+import ProjectItemPage from './Pages/ProjectItemPage.js';
 // import NotFound from './Pages/NotFound.js';
 import Footer from './Components/Footer/Footer.js';
 import CursorFocus from './Components/CursorFocus/index.js';
@@ -35,6 +36,7 @@ const App = () => {
     return (
         <div className="App" height="100%">
             <CursorFocus />
+            {/* <div id="page-wrap"> */}
             <Header />
             <SocialMedia />
             <ScrollTop />
@@ -43,11 +45,13 @@ const App = () => {
                 <Switch>
                     <Route exact path="/" component={HomePage} />
                     <Route path="/projects" component={ProjectPage} />
+                    <Route path="/projectsitem" component={ProjectItemPage} />
                     <Route path="/experiment" component={ExperimentPage} />
                     <Route path="/designguide" component={DesignGuidePage} />
                     {/* <Route component={NotFound} /> */}
                 </Switch>
             <Footer /> 
+            {/* </div> */}
         </div>
     );
 }

@@ -1,9 +1,21 @@
 [
-    {   
+    {
         "id": 0,
+        "title": "Undefinedteam",
+        "category": "project mangement",
+        "picture": "Images/Projects/Desktop/Portfolio_D4.png",
+        "date": "2020-2021",
+        "shortDescription": "",
+        "url": "https://undefinedteam.netlify.app/",
+        "description": "",
+        "desktop": [],
+        "mobile": []
+    },
+    {   
+        "id": 1,
         "title": "Afterparty",
         "category": "project coordinate",
-        "picture": "../src/Assets/Images/Projects/Desktop/Portflio_A4.png",
+        "picture": "Images/Projects/Desktop/JJEntertainment.jpg",
         "date": "Wed April 01 2020 11:39:00 GMT-0700 (PDT)",
         "shortDescription": "web design agency lead development and project management",
         "url": "https://jjent.netlify.app/",
@@ -12,13 +24,13 @@
         "mobile": []
     },
     {
-        "id": 1,
+        "id": 2,
         "title": "Sitemax Systems",
         "category": "frontend development",
-        "picture": "../src/Assets/Images/Projects/Desktop/Portfolio_D4.png",
+        "picture": "Images/Projects/Desktop/Portfolio_D4.png",
         "date": "2018-2019",
         "shortDescription": "construction software company frontend development and web management",
-        "url": "https://www.sitemaxsystems.com/",
+        "url": "",
         "description": "",
         "desktop": [],
         "mobile": []

@@ -1,28 +1,6 @@
 @import '../../variables.scss';
 @import '../../mixins.scss';
 
-.projectItem {
-    width: 100%;
-    height: 300px;
-    display: block;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-
-    @include tablet {
-        width: 580px;
-        height: 385px;
-    }
-    @include desktopLg{
-        width: 645px;
-        height: 425px;
-    }
-}
-
-.projectItemBg{
-    // background-size: cover;
-}
-
 .projectItem:nth-of-type(odd){
     @include tablet{
         margin-left: 5%;

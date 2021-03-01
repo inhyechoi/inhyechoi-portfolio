@@ -1,4 +1,5 @@
 import React from 'react';
+import Cards from '../Cards/Cards'
 import './DesignGuide.scss';
 
 const DesignGuide = () => {
@@ -7,20 +8,24 @@ const DesignGuide = () => {
         <section className="designGdWrapper">
             <div className="designGdContainer">  
                 <div className="colorPalette">
+                    <h4>Colors</h4>
+                    <Cards />
                     <div className="card">
-                        <div className="colorBg-1">
+                        <div className="colorBgWrapper-1">
+                            <div className="colorBg colorBg-1">Regular</div>
+                            <div className="colorBg colorBg-1-2">Hover</div>
                         </div>
-                        <div className="colorTxtWrapper">
+                        <div className="colorTxtWrapper-1">
                             <h3 className="colorTitle">#E65722</h3>  
                             <div>
                                 <ul>
-                                    <li>CMYK(5 80 100 1)</li>
-                                    <li>RGB(230 87 34)</li>
+                                    <li className="colorDescr">CMYK(5 80 100 1)</li>
+                                    <li className="colorDescr">RGB(230 87 34)</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div className="card">
+                    {/* <div className="card">
                         <div className="colorBg-2">
                         </div>
                         <div className="colorTxtWrapper">
@@ -114,7 +119,7 @@ const DesignGuide = () => {
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="typography">
 

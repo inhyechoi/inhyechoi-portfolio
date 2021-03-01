@@ -1,6 +1,6 @@
 import React from 'react';
 import Goo from 'gooey-react'
-import Pdf from '../../Assets/Files/Inhye_Choi_Resume.pdf';
+// import Pdf from '../../Assets/Files/Inhye_Choi_Resume.pdf';
 
 // const styles = StyleSheet.create({
 //     page: {
@@ -31,14 +31,9 @@ const About = () => {
 
     return(
         <div className="about" style={{height: `100%`}}>
-                        <div className="aboutBtnWrapper">
-                <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a>
-            </div>
 {/* 
             <a href={ Pdf } target="_blank" className="resumeBtn" download="Inhye_Choi_resume.pdf">Resume</a>
-            
             <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Resume</a> */}
-
             <title>Inhye Choi</title>
             <Goo intensity="weak">
             <svg className="inhyeBgFilter">

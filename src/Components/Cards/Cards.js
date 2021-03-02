@@ -5,7 +5,7 @@ import './Cards.scss';
 const Cards = () => {
     return (
         <div className="cards">
-            <h1>Check out these awesome projects!</h1>
+            {/* <h1>Check out these awesome projects!</h1> */}
             <div className="cards__containers">
                 <div className="cards__wrapper">
                     <ul className="cards__items">

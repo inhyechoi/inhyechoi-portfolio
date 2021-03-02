@@ -7,38 +7,7 @@ const DesignGuide = () => {
     return(
         <section className="designGdWrapper">
             <div className="designGdContainer">  
-                <div className="colorPalette">
-                    <h4>Colors</h4>
-                    <Cards />
-                    <div className="card">
-                        <div className="colorBgWrapper-1">
-                            <div className="colorBg colorBg-1">Regular</div>
-                            <div className="colorBg colorBg-1-2">Hover</div>
-                        </div>
-                        <div className="colorTxtWrapper-1">
-                            <h3 className="colorTitle">#E65722</h3>  
-                            <div>
-                                <ul>
-                                    <li className="colorDescr">CMYK(5 80 100 1)</li>
-                                    <li className="colorDescr">RGB(230 87 34)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                     {/* <div className="card">
-                        <div className="colorBg-2">
-                        </div>
-                        <div className="colorTxtWrapper">
-                            <h3 className="colorTitle">#2E93EA</h3>  
-                            <div>
-                                <ul>
-                                    <li>CMYK(71 35 0 0)</li>
-                                    <li>RGB(46 147 234)</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card">
                         <div className="colorBg">
                         </div>
                         <div className="colorTxtWrapper">
@@ -119,8 +88,8 @@ const DesignGuide = () => {
                                 </ul>
                             </div>
                         </div>
-                    </div> */}
-                </div>
+                    </div> 
+                </div> */}
                 <div className="typography">
 
                 </div>  

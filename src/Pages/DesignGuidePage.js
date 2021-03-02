@@ -9,7 +9,7 @@ import '../Components/DesignGuide/DesignGuide.scss';
 const DesignGuidePage = () => {
     return(
         <div className="container">
-            <DesignGuide />
+            {/* <DesignGuide /> */}
         </div>
     );
 }

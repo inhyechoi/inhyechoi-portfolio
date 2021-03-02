@@ -1,7 +1,7 @@
 import React from 'react';
-import './NotFound.scss'
+import './NotFoundPage.scss'
 
-const NotFound = () => {
+const NotFoundPage = () => {
     return(
         <div>
             <div className="notFoundWrapper">
@@ -12,4 +12,4 @@ const NotFound = () => {
     );
 }
 
-export default NotFound;
+export default NotFoundPage;

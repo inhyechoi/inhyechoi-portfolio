@@ -8,7 +8,7 @@ import ProjectPage from './Pages/ProjectPage.js';
 import ExperimentPage from './Pages/ExperimentPage.js';
 import DesignGuidePage from './Pages/DesignGuidePage.js'
 import ProjectItemPage from './Pages/ProjectItemPage.js';
-// import NotFound from './Pages/NotFound.js';
+import NotFoundPage from './Pages/NotFoundPage.js';
 import Footer from './Components/Footer/Footer.js';
 import CursorFocus from './Components/CursorFocus/index.js';
 
@@ -48,7 +48,7 @@ const App = () => {
                     <Route path="/projectsitem" component={ProjectItemPage} />
                     <Route path="/experiment" component={ExperimentPage} />
                     <Route path="/designguide" component={DesignGuidePage} />
-                    {/* <Route component={NotFound} /> */}
+                    <Route component={NotFoundPage} />
                 </Switch>
             <Footer /> 
             {/* </div> */}

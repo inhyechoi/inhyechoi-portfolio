@@ -17,7 +17,7 @@ const CardItem = (props) => {
         <>
             <li className="cards__item cards__item__link">
                 <Figure className="cards__item__bg-wrap">
-                    <div className="cards__item__bg-left" style={{background: "{cardBgColors.Blue}"}}>Regular</div>
+                    <div className="cards__item__bg-left" backgroundColor={cardBgColors.Blue}>Regular</div>
                     <div className="cards__item__bg-right">Hover</div>
                 </Figure>
                 <div className="cards__item__info">

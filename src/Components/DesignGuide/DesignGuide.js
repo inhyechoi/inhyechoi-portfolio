@@ -7,6 +7,7 @@ const DesignGuide = () => {
     return(
         <section className="designGdWrapper">
             <div className="designGdContainer">  
+                <Cards />
                     {/* <div className="card">
                         <div className="colorBg">
                         </div>

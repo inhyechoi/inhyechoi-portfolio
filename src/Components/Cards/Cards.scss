@@ -1,6 +1,12 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
 .cards {
-    padding: 4rem;
+    padding: 2rem;
     background: #fff;
+    @include tablet{
+      padding: 4rem;
+    }
   }
   
   h1 {
@@ -23,6 +29,9 @@
   
   .cards__items {
     margin-bottom: 24px;
+    @include tablet{
+      display: flex;
+    }
   }
   
   .cards__item {
@@ -42,13 +51,14 @@
     border-radius: 10px 10px 0 0;
     overflow: hidden;
     text-decoration: none;
+    max-width: 265px;
   }
   
   .cards__item__bg-wrap {
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 100px;
+    height: 90px;
     display: flex;
     justify-content: space-around;
     align-items: center;

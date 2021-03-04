@@ -1,19 +1,19 @@
 [
     {
         "id": 0,
-        "title": "Undefinedteam",
+        "title": "fitness",
         "category": "project mangement",
-        "picture": "Images/Projects/Desktop/Portfolio_D4.png",
+        "picture": "Images/Projects/Desktop/JJEntertainment_changmo_jedharper_instagram_square.jpg",
         "date": "2020-2021",
         "shortDescription": "",
-        "url": "https://undefinedteam.netlify.app/",
+        "url": "http://teamk-fitness.com/",
         "description": "",
         "desktop": [],
         "mobile": []
     },
     {   
         "id": 1,
-        "title": "Afterparty",
+        "title": "afterparty",
         "category": "project coordinate",
         "picture": "Images/Projects/Desktop/JJEntertainment.jpg",
         "date": "Wed April 01 2020 11:39:00 GMT-0700 (PDT)",
@@ -25,12 +25,12 @@
     },
     {
         "id": 2,
-        "title": "Sitemax Systems",
-        "category": "frontend development",
-        "picture": "Images/Projects/Desktop/Portfolio_D4.png",
+        "title": "sitemax",
+        "category": "ux / ui design, frontend development",
+        "picture": "Images/Projects/Desktop/Sitemax.png",
         "date": "2018-2019",
         "shortDescription": "construction software company frontend development and web management",
-        "url": "",
+        "url": "http://sitemaxsystems.com/",
         "description": "",
         "desktop": [],
         "mobile": []

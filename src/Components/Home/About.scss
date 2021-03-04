@@ -246,6 +246,6 @@ svg *{
     margin: 2em 3em;
     font-size: 1.3em;
     @include tablet{
-        margin: 2em 5em;
+        margin: 2em auto;
     }
 }

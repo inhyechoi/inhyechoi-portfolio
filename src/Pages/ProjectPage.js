@@ -9,7 +9,7 @@ import '../Components/Projects/Projects.scss';
 const ProjectPage = () => {
     return(
         <div className="container">
-            {/* <Projects /> */}
+            <Projects />
         </div>
     );
 }

@@ -1,5 +1,5 @@
+// import React from 'react';
 import React from 'react';
-// import React, { useEffect, useState } from 'react';
 import SocialMedia from './Components/SocialMedia/SocialMedia.js';
 import ScrollTop from './Components/ScrollTop/ScrollTop';
 import Header from './Components/Header/Header.js';
@@ -32,7 +32,6 @@ import './Style/index.scss';
 import './App.scss';
 
 const App = () => {
-
     return (
         <div className="App" height="100%">
             <CursorFocus />
@@ -45,8 +44,9 @@ const App = () => {
                 <Switch>
                     <Route exact path="/" component={HomePage} />
                     <Route path="/projects" component={ProjectPage} />
-                    <Route path="/projectsitem" component={ProjectItemPage} />
+                    {/* <Route path="/projectsitem" component={ProjectItemPage} /> */}
                     <Route path="/experiment" component={ExperimentPage} />
+                    <Route path="/projects/:title" component={ProjectItemPage} />
                     <Route path="/designguide" component={DesignGuidePage} />
                     <Route component={NotFoundPage} />
                 </Switch>

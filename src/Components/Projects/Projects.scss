@@ -6,10 +6,34 @@
     height: auto;
 }
 
-.projectContainer{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    align-items: center;
-}
+.panel {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+  }
+  
+  .panel span {
+    position: relative;
+    display: block;
+    overflow: visible;
+    top: 50%;
+    font-size: 80px;
+  }
+  
+  .panel.blue {
+    background-color: #3883d8;
+  }
+  
+  .panel.turqoise {
+    background-color: #38ced7;
+  }
+  
+  .panel.green {
+    background-color: #22d659;
+    margin-bottom: 800px;
+  }
+  
+  .panel.bordeaux {
+    background-color: #953543;
+  }
+  

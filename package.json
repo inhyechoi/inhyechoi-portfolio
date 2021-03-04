@@ -20,7 +20,7 @@
     "fsevents": "^2.3.2",
     "gh-pages": "^2.1.1",
     "gooey-react": "^1.1.0",
-    "gsap": "^3.5.1",
+    "gsap": "^3.6.0",
     "gulp": "^4.0.2",
     "jquery": "^3.5.1",
     "node": "^15.8.0",
@@ -42,6 +42,7 @@
     "redux": "^4.0.5",
     "scrollmagic": "^2.0.8",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.1",
     "typescript": "^4.0.3"
   },
   "scripts": {

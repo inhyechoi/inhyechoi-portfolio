@@ -2,7 +2,7 @@
     {
         "id": 0,
         "title": "fitness",
-        "category": "project mangement",
+        "category": "project management",
         "picture": "Images/Projects/Desktop/TeamK.png",
         "date": "2020-2021",
         "shortDescription": "",
@@ -14,7 +14,7 @@
     {   
         "id": 1,
         "title": "afterparty",
-        "category": "project coordinate",
+        "category": "ux / ui design",
         "picture": "Images/Projects/Desktop/JJEntertainment.jpg",
         "date": "Wed April 01 2020 11:39:00 GMT-0700 (PDT)",
         "shortDescription": "web design agency lead development and project management",

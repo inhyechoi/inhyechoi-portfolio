@@ -97,7 +97,10 @@ header .menuWrapper .menuLine{
 }
 
 .switch{
-    margin-right: 60px;
+    margin-right: 10px;
+    @include tablet{
+        margin-right: 60px;
+    }
     @include desktop{
         margin-right: 86px;
     }

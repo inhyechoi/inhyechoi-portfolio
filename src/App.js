@@ -1,4 +1,3 @@
-// import React from 'react';
 import React from 'react';
 import SocialMedia from './Components/SocialMedia/SocialMedia.js';
 import ScrollTop from './Components/ScrollTop/ScrollTop';
@@ -12,7 +11,6 @@ import NotFoundPage from './Pages/NotFoundPage.js';
 import Footer from './Components/Footer/Footer.js';
 import CursorFocus from './Components/CursorFocus/index.js';
 
-// import MobileMenu from './Components/Header/MobileMenu.js';
 import { Route, Switch } from 'react-router-dom';
 
 import './App.scss';
@@ -33,25 +31,22 @@ import './App.scss';
 
 const App = () => {
     return (
-        <div className="App" height="100%">
+        <div id="outer-container" className="App" height="100%">
             <CursorFocus />
-            {/* <div id="page-wrap"> */}
-            <Header />
             <SocialMedia />
             <ScrollTop />
-            <div className="middle">
-            </div>
-                <Switch>
-                    <Route exact path="/" component={HomePage} />
-                    <Route path="/projects" component={ProjectPage} />
-                    {/* <Route path="/projectsitem" component={ProjectItemPage} /> */}
-                    <Route path="/experiment" component={ExperimentPage} />
-                    <Route path="/projects/:title" component={ProjectItemPage} />
-                    <Route path="/designguide" component={DesignGuidePage} />
-                    <Route component={NotFoundPage} />
-                </Switch>
-            <Footer /> 
-            {/* </div> */}
+                <Header />
+                <div className="middle">
+                </div>
+                    <Switch>
+                        <Route exact path="/" component={HomePage} />
+                        <Route path="/projects" component={ProjectPage} />
+                        <Route path="/experiment" component={ExperimentPage} />
+                        <Route path="/projects/:title" component={ProjectItemPage} />
+                        <Route path="/designguide" component={DesignGuidePage} />
+                        <Route component={NotFoundPage} />
+                    </Switch>
+                <Footer /> 
         </div>
     );
 }

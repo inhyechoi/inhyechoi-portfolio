@@ -3,7 +3,7 @@
 
 .projectItemBg {
     height: 400px;
-    max-width: 350px;
+    max-width: 330px;
     border-radius: 12px;
     background-size: cover;
     background-position: center center;
@@ -30,7 +30,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     @include tablet{
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 }
 .item {

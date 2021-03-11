@@ -34,5 +34,41 @@
         "description": "",
         "desktop": [],
         "mobile": []
+    },
+    {
+        "id": 3,
+        "title": "real estate",
+        "category": "graphic, ux / ui design, web development",
+        "picture": "Images/Projects/Desktop/chrisahn.png",
+        "date": "2016-2017",
+        "shortDescription": "realestate realtor company graphic design and web development",
+        "url": "http://www.changseopahn.com/",
+        "description": "",
+        "desktop": [],
+        "mobile": []
+    },
+    {
+        "id": 4,
+        "title": "restaurant",
+        "category": "graphic, ux / ui design, web development",
+        "picture": "Images/Projects/Desktop/Pokerrito.jpg",
+        "date": "2016",
+        "shortDescription": "restaurant company company graphic design and web development",
+        "url": "http://www.changseopahn.com/",
+        "description": "",
+        "desktop": [],
+        "mobile": []
+    },
+    {
+        "id": 5,
+        "title": "bmo vancouver marathon",
+        "category": "graphic, web design",
+        "picture": "Images/Projects/Desktop/bmomarathon.png",
+        "date": "2013-2014",
+        "shortDescription": "bmo vancouver marathon graphic design signage foodbox website management",
+        "url": "http://www.changseopahn.com/",
+        "description": "",
+        "desktop": [],
+        "mobile": []
     }
 ]

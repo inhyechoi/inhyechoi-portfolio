@@ -1,39 +1,10 @@
 import React from 'react';
 import Goo from 'gooey-react'
-// import Pdf from '../../Assets/Files/Inhye_Choi_Resume.pdf';
-
-// const styles = StyleSheet.create({
-//     page: {
-//       flexDirection: 'row',
-//       backgroundColor: '#E4E4E4'
-//     },
-//     section: {
-//       margin: 10,
-//       padding: 10,
-//       flexGrow: 1
-//     }
-//   });
-  
-//   const MyDoc = () => (
-//     <Document>
-//       <Page size="A4" style={styles.page}>
-//         <View style={styles.section}>
-//           <Text>Section #1</Text>
-//         </View>
-//         <View style={styles.section}>
-//           <Text>Section #2</Text>
-//         </View>
-//       </Page>
-//     </Document>
-//   );
 
 const About = () => {
 
     return(
         <div className="about" style={{height: `100%`}}>
-{/* 
-            <a href={ Pdf } target="_blank" className="resumeBtn" download="Inhye_Choi_resume.pdf">Resume</a>
-            <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Resume</a> */}
             <title>Inhye Choi</title>
             <Goo intensity="weak">
             <svg className="inhyeBgFilter">

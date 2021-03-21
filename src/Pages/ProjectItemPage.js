@@ -1,14 +1,14 @@
 import React from 'react';
-import ProjectsItemItem from '../Components/Projects/ProjectItemItem';
+import ProjectItem from '../Components/Projects/ProjectItem';
 import '../Style/index.scss';
 import '../mixins.scss';
 import '../variables.scss';
-import '../Components/Projects/ProjectItemItem.scss';
+import '../Components/Projects/ProjectItem.scss';
 
 const ProjectItemPage = () => {
     return(
         <div className="container">
-            <ProjectsItemItem />
+            <ProjectItem />
         </div>
     );
 }

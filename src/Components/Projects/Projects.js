@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectItem from './ProjectItem.js';
+import ProjectItems from './ProjectItems.js';
 
 import './Projects.scss';
 
@@ -9,7 +9,7 @@ const Projects = () => {
         <section className="projectsWrapper">
             <div className="projectContainer">  
                 <h1 className="titlePage">Projects</h1>  
-                <ProjectItem />
+                <ProjectItems />
             </div>
         </section>
     );

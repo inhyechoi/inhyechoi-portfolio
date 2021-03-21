@@ -5,7 +5,6 @@ import './Cards.scss';
 const Cards = () => {
     return (
         <div className="cards">
-            {/* <h1>Check out these awesome projects!</h1> */}
             <div className="cards__containers">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
@@ -20,6 +19,12 @@ const Cards = () => {
                             hexcolor="#2E93EA" 
                             cmyk="CMYK(71 35 0 0)"
                             rgba="RGB(46 147 234)"
+                        />
+                        <CardItem 
+                            src="images/" 
+                            hexcolor="#a322ee" 
+                            cmyk="CMYK(32 86 0 7)"
+                            rgba="RGB(163 34 238)"
                         />
                     </ul>
                 </div>

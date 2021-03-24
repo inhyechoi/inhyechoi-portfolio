@@ -1,12 +1,16 @@
 @import '../../variables.scss';
 @import '../../mixins.scss';
 
+
+.designGdWrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .cards {
     padding: 2rem;
     background: #fff;
-    @include tablet{
-      padding: 4rem;
-    }
   }
   
   h1 {
@@ -29,16 +33,20 @@
   
   .cards__items {
     margin-bottom: 24px;
-    @include tablet{
-      display: flex;
-    }
-  }
-  
-  .cards__item {
     display: flex;
-    flex: 1;
-    margin: 0 1rem;
-    border-radius: 10px;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    @include tablet{
+      justify-content: space-around;
+      max-width: 1190px;
+    }
+    @include desktopLg{
+      &:after {
+        content: "";
+        flex: auto;
+      }
+    }
   }
   
   .cards__item__link {
@@ -51,6 +59,7 @@
     overflow: hidden;
     text-decoration: none;
     max-width: 265px;
+    margin: 0 1rem 2rem 1rem;
   }
   
   .cards__item__bg-wrap {
@@ -63,10 +72,6 @@
     align-items: center;
   }
 
-  .cards__item__bg-left{
-
-  }
-  
   .fade-img {
     animation-name: fade-img;
     animation-duration: 2s;
@@ -129,6 +134,6 @@
   
   @media only screen and (max-width: 1024px) {
     .cards__item {
-      margin-bottom: 2rem;
+      margin: 0 1rem 2rem 0;
     }
   }

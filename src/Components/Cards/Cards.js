@@ -26,6 +26,24 @@ const Cards = () => {
                             cmyk="CMYK(32 86 0 7)"
                             rgba="RGB(163 34 238)"
                         />
+                        <CardItem 
+                            src="images/" 
+                            hexcolor="#a322ee" 
+                            cmyk="CMYK(32 86 0 7)"
+                            rgba="RGB(163 34 238)"
+                        />         
+                                                <CardItem 
+                            src="images/" 
+                            hexcolor="#a322ee" 
+                            cmyk="CMYK(32 86 0 7)"
+                            rgba="RGB(163 34 238)"
+                        />  
+                                                <CardItem 
+                            src="images/" 
+                            hexcolor="#a322ee" 
+                            cmyk="CMYK(32 86 0 7)"
+                            rgba="RGB(163 34 238)"
+                        />      
                     </ul>
                 </div>
             </div>

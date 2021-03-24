@@ -16,11 +16,11 @@ const CardItem = (props) => {
         {
             id: "0",
             bgColor: "#81b71a"
-        },
-        {
-            id: "1",
-            bgColor: "#00B1E1"
         }
+        // {
+        //     id: "1",
+        //     bgColor: "#00B1E1"
+        // }
     ]
 
     return (

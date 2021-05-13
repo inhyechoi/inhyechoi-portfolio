@@ -7,6 +7,7 @@
         "date": "2020-2021",
         "shortDescription": "",
         "url": "http://teamk-fitness.com/",
+        "url2":"",
         "description": "",
         "desktop": [],
         "mobile": [],
@@ -27,6 +28,7 @@
         "date": "Wed April 01 2020 11:39:00 GMT-0700 (PDT)",
         "shortDescription": "web design agency lead development and project management",
         "url": "https://jjent.netlify.app/",
+        "url2": "",
         "description": "",
         "desktop": [],
         "mobile": []
@@ -38,7 +40,8 @@
         "picture": "Images/Projects/Desktop/Sitemax.png",
         "date": "2018-2019",
         "shortDescription": "construction software company frontend development and web management",
-        "url": "http://sitemaxsystems.net/",
+        "url": "https://sitemaxsystems.com/",
+        "url2": "https://www.figma.com/file/d0JvwyLshNF9cbev0iyVq7/app-design-guide-1.0?node-id=0%3A1",
         "description": "",
         "desktop": [],
         "mobile": []
@@ -75,6 +78,7 @@
         "date": "2013-2014",
         "shortDescription": "bmo vancouver marathon graphic design signage foodbox website management",
         "url": "",
+        "url2": "https://www.dropbox.com/s/030job3car416o2/IC%20Print%20Graphics-1.pdf?dl=0",
         "description": "",
         "desktop": [],
         "mobile": []

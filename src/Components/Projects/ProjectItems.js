@@ -1,7 +1,9 @@
 import React from 'react';
 import projects from '../../data.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import ProjectItemPage from '../../Pages/ProjectItemPage';
 import './ProjectItems.scss';
+import { faCode, faPaintBrush } from '@fortawesome/free-solid-svg-icons';
 
 import { Route, Link } from 'react-router-dom';
 
@@ -14,23 +16,16 @@ const ProjectItems = () => {
 
                 return(
                     <div className="projectItemBg item" key={el.id} >
-                      {/* <Link route={`/projects/projectitem` }> */}
                       <img className="projectItemImg" src={el.picture} />
-                    <ul className="hover-items">
-                      {/* <li><img className="projectItemImg" src={el.picture} /></li>
-                      <li>{el.title}</li>
-                      <li>{el.category}</li> */}
-                      <li>
-                        <a href={el.url}>view project</a>
-                      </li>
-                        {/* </Link> */}
-                    </ul>
-
-                    <p>{el.title}</p>
-                    <p>{el.category}</p>
-                      {/* </Link> */}
-
-                    {/* <Route path={`/projects/:projectitem`} component={ProjectItemPage}/> */}
+                      <ul className="hover-items">
+                        <li>
+                          <a href={el.url}><FontAwesomeIcon className="fa fa-code" icon={faCode} /></a>
+                        </li>
+                        <li>
+                          <a href={el.url2}><FontAwesomeIcon className="fa fa-paint-brush" icon={faPaintBrush} /></a>                        </li>
+                      </ul>
+                      <p>{el.title}</p>
+                      <p>{el.category}</p>
                   </div>
                 );
             })}

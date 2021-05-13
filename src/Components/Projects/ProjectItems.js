@@ -14,16 +14,23 @@ const ProjectItems = () => {
 
                 return(
                     <div className="projectItemBg item" key={el.id} >
-                      <Link route={`/projects/projectitem` }>
-                    <ul>
-                      <li><img className="projectItemImg" src={el.picture} /></li>
+                      {/* <Link route={`/projects/projectitem` }> */}
+                      <img className="projectItemImg" src={el.picture} />
+                    <ul className="hover-items">
+                      {/* <li><img className="projectItemImg" src={el.picture} /></li>
                       <li>{el.title}</li>
-                      <li>{el.category}</li>
+                      <li>{el.category}</li> */}
+                      <li>
+                        <a href={el.url}>view project</a>
+                      </li>
                         {/* </Link> */}
                     </ul>
-                      </Link>
 
-                    <Route path={`/projects/:projectitem`} component={ProjectItemPage}/>
+                    <p>{el.title}</p>
+                    <p>{el.category}</p>
+                      {/* </Link> */}
+
+                    {/* <Route path={`/projects/:projectitem`} component={ProjectItemPage}/> */}
                   </div>
                 );
             })}

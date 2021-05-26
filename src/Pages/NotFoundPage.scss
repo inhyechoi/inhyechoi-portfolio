@@ -1,3 +1,6 @@
+@import '../variables.scss';
+@import '../mixins.scss';
+
 .notFoundWrapper{
     width: 100vw;
     height: auto;
@@ -8,4 +11,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.back-button{
+    border: solid 2px rgb(70, 65, 65);
+    color: $primary-light-color;
+    background: rgb(70, 65, 65);
+    font-weight: 300;
+    font-size: 0.9em;
+    letter-spacing: 0.05em;
 }

@@ -2,19 +2,52 @@
 @import '../mixins.scss';
 
 .container{
-    // max-width: 1100px;
     display: flex;
     width: 100%;
     margin: 10em auto 0 auto;
     
     @include tablet {
-        // width: 100%;
         height: auto;
         margin: 180px auto 0 auto;
         max-width: 900px;
     }
     @include desktop {
-        // max-width: 850px;
+        max-width: 1100px;
+    }
+    @include desktopLg{
+        max-width: 1500px;
+    }
+}
+
+.container-m{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 8em;
+    padding-bottom: 50px;
+    background-color: #e08a81;
+    
+    @include tablet {
+        height: auto;
+        padding-top: 180px;
+        margin: 0 auto;
+    }
+}
+
+.container-l{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #e08a81;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    @include tablet {
+        height: auto;
+        margin: 0 auto;
+        max-width: 900px;
+    }
+    @include desktop {
         max-width: 1100px;
     }
     @include desktopLg{
@@ -30,8 +63,6 @@
     font-weight: 300;
     display: block;
     @include desktop{
-        // padding: 0 2em;
-        // margin: 0.7em auto;
         font-size: 1.35em;
     }
 }

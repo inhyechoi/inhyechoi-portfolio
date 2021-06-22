@@ -1,7 +1,7 @@
 @import '../../variables.scss';
 @import '../../mixins.scss';
 
-.projectItemBg {
+.projectItemsBg {
     height: 400px;
     max-width: 330px;
     border-radius: 12px;
@@ -63,12 +63,14 @@
 .projectItems{
     margin: 1em auto;
     max-width: 800px;
+    display: flex;
+    flex-direction: column;
     @include desktopLg{
         max-width: 1600px;
     }
 }
 
-.projectItemImg{
+.projectItemsImg{
     height: 400px;
     object-fit: cover;
     width: 100%;
@@ -80,6 +82,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    // order: 2;
     @include tablet{
         justify-content: space-evenly;
     }

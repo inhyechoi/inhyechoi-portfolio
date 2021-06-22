@@ -28,7 +28,7 @@
   
   .cards__wrapper {
     position: relative;
-    margin: 50px 0 45px;
+    margin: 0px 0 45px;
   }
   
   .cards__items {
@@ -69,6 +69,13 @@
     height: 90px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+  }
+
+  .cards__item__bg-left{
+    height: 5em;
+    display: flex;
+    justify-content: center;
     align-items: center;
   }
 
@@ -115,9 +122,13 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: $primary-dark-color;
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .cards__item__desc{
+    color: $primary-dark-color;
   }
   
   @media only screen and (min-width: 1200px) {

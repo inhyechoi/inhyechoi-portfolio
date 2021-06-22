@@ -1,13 +1,19 @@
 import React from 'react';
 import projects from '../../data.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import ProjectItemPage from '../../Pages/ProjectItemPage';
 import './ProjectItems.scss';
 import { faCode, faPaintBrush } from '@fortawesome/free-solid-svg-icons';
+import ProjectItem from './ProjectItem.js';
 
-import { Route, Link } from 'react-router-dom';
+import { 
+  Link,
+  Route,
+  Switch,
+  useRouteMatch
+} from 'react-router-dom';
 
 const ProjectItems = () => {
+  const { path } = useRouteMatch();
 
     return(
         <div className="projectItems">
@@ -15,14 +21,15 @@ const ProjectItems = () => {
             {projects.map((el)=>{
 
                 return(
-                    <div className="projectItemBg item" key={el.id} >
-                      <img className="projectItemImg" src={el.picture} />
+                    <div className="projectItemsBg item" key={el.id} >
+                      <img className="projectItemsImg" src={el.picture} />
                       <ul className="hover-items">
                         <li>
                           <a href={el.url}><FontAwesomeIcon className="fa fa-code" icon={faCode} /></a>
                         </li>
                         <li>
-                          <a href={el.url2}><FontAwesomeIcon className="fa fa-paint-brush" icon={faPaintBrush} /></a>                        </li>
+                          <Link to={`/projects/${el.title}`}><FontAwesomeIcon className="fa fa-paint-brush" icon={faPaintBrush} /></Link>
+                        </li>
                       </ul>
                       <p>{el.title}</p>
                       <p>{el.category}</p>
@@ -30,7 +37,15 @@ const ProjectItems = () => {
                 );
             })}
           </div>
-        </div>
+          <Switch>
+            <Route path={`${path}/:projectId`}>
+              <ProjectItem />
+            </Route>
+            {/* exact will only returns the route if the path is an EXACT match to the current url */}
+            <Route exact path={path} path='/projects'>
+            </Route>
+          </Switch>
+    </div>
     );
 }; 
 

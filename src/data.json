@@ -4,11 +4,17 @@
         "title": "fitness",
         "category": "project management",
         "picture": "Images/Projects/Desktop/TeamK.png",
+        "pictures": [
+           
+        ],
         "date": "2020-2021",
         "shortDescription": "",
         "url": "http://teamk-fitness.com/",
         "url2":"",
-        "description": "",
+        "heading": [
+        ],
+        "description": [
+        ],
         "desktop": [],
         "mobile": [],
         "resources": [
@@ -25,11 +31,16 @@
         "title": "afterparty",
         "category": "ux / ui design",
         "picture": "Images/Projects/Desktop/JJEntertainment.jpg",
+        "pictures": [
+        ],
         "date": "Wed April 01 2020 11:39:00 GMT-0700 (PDT)",
         "shortDescription": "web design agency lead development and project management",
         "url": "https://jjent.netlify.app/",
         "url2": "",
-        "description": "",
+        "heading": [
+        ],
+        "description": [
+        ],
         "desktop": [],
         "mobile": []
     },
@@ -38,11 +49,58 @@
         "title": "sitemax",
         "category": "ux / ui design, frontend development",
         "picture": "Images/Projects/Desktop/Sitemax.png",
+        "pictures": [
+            "Images/Projects/Desktop/Sitemax.png",
+            "Images/Projects/Desktop/smx_sitemap.png",
+            "Images/Projects/Desktop/initial/home1.png",
+            "Images/Projects/Desktop/initial/home2.png",
+            "Images/Projects/Desktop/initial/general-contractor.png",
+            "Images/Projects/Desktop/initial/subtrades.png",
+            "Images/Projects/Desktop/initial/products.png",
+            "Images/Projects/Desktop/initial/products2.png",
+            "Images/Projects/Desktop/initial/customers.png",
+            "Images/Projects/Desktop/final/home.png",
+            "Images/Projects/Desktop/final/general-contractor.png",
+            "Images/Projects/Desktop/final/about-us.png",
+            "Images/Projects/Desktop/final/case-study.png",
+            "Images/Projects/Desktop/final/products.png",
+            "Images/Projects/Desktop/final/pricing.png",
+            "Images/Projects/Desktop/final/blog.png",
+            "Images/Projects/Desktop/final/media.png",
+            "Images/Projects/Desktop/final/referral-partner.png",
+            "Images/Projects/Desktop/final/referral-program.png",
+            "Images/Projects/Desktop/final/mobile-home.png",
+            "Images/Projects/Desktop/final/mobile-menu.png",
+            "Images/Projects/Desktop/final/mobile-pricing.png",
+            "Images/Projects/Desktop/final/mobile-products.png",
+            "Images/Projects/Desktop/final/mobile-integration.png",
+            "Images/Projects/Desktop/final/mobile-media.png",
+            "Images/Projects/Desktop/final/mobile-freetrial.png",
+            "Images/Projects/Desktop/research/smx-research.jpg",
+            "Images/Projects/Desktop/research/smx-research2.jpg",
+            "Images/Projects/Desktop/research/smx-research3.jpg",
+            "Images/Projects/Desktop/research/smx-research4.jpg",
+            "Images/Projects/Desktop/research/smx-research5.jpg"
+        ],
         "date": "2018-2019",
-        "shortDescription": "construction software company frontend development and web management",
+        "shortDescription": "Website of Construction Company.",
         "url": "https://sitemaxsystems.com/",
         "url2": "https://www.figma.com/file/d0JvwyLshNF9cbev0iyVq7/app-design-guide-1.0?node-id=0%3A1",
-        "description": "",
+        "heading": [
+            "The initial design - made in Sketch v. 52.5",
+            "The final design - implemented in Wordpress 5.2"
+        ],
+        "description": [
+            "Full cycle of design and development a responsive website for company. I was the sole UX / UI designer, Web developer within the core internal project team. The project was delievered through Agile methodology.",
+            "Worked with the cross-functional team to produce a design of company's website from sitemap and wireframes for global templates.",
+            "1. I gathered and research review of the company's existing websites to get a feel for the brand, functionality and user experience. I sketched preferred type of navigation layout to ensure unity in design throughout all pages.",
+            "2. I designed the sitemap to display both required and optional content - able to be scoped at a glance by the different markets.",
+            "3. Wireframes were sketched first before being transferred into prototype.",
+            "4. The wireframes are finished, I created the visual designs.",
+            "5. The prototypes were created, I developed UI components including icons, buttons, input field and pagination etc.",
+            "6. I developed a fully responsive website by building a custom template for global theme. The website release to production.",
+            "Numorous testing and feedback from users is gathered. The process repeats between launch and testing."
+        ],
         "desktop": [],
         "mobile": []
     },
@@ -51,9 +109,13 @@
         "title": "real estate",
         "category": "graphic, ux / ui design, web development",
         "picture": "Images/Projects/Desktop/chrisahn.png",
+        "pictures": [
+        ],
         "date": "2016-2017",
         "shortDescription": "realestate realtor company graphic design and web development",
         "url": "https://changseopahn.com/",
+        "heading": [
+        ],
         "description": "",
         "desktop": [],
         "mobile": []
@@ -63,10 +125,17 @@
         "title": "restaurant",
         "category": "graphic, ux / ui design, web development",
         "picture": "Images/Projects/Desktop/Pokerrito.jpg",
+        "pictures": [
+        ],
         "date": "2016",
         "shortDescription": "restaurant company company graphic design and web development",
         "url": "https://github.com/inhyechoi/pokerrito",
-        "description": "",
+        "heading": [
+            "",
+            ""
+        ],
+        "description": [
+        ],
         "desktop": [],
         "mobile": []
     },
@@ -75,11 +144,16 @@
         "title": "bmo vancouver marathon",
         "category": "graphic, web design",
         "picture": "Images/Projects/Desktop/bmomarathon.png",
+        "pictures": [
+        ],
         "date": "2013-2014",
         "shortDescription": "bmo vancouver marathon graphic design signage foodbox website management",
         "url": "",
         "url2": "https://www.dropbox.com/s/030job3car416o2/IC%20Print%20Graphics-1.pdf?dl=0",
-        "description": "",
+        "heading": [
+        ],
+        "description": [
+        ],
         "desktop": [],
         "mobile": []
     }

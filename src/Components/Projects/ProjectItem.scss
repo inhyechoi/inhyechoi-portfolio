@@ -1,0 +1,153 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
+.projectItem{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e08a81;
+  p{
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
+
+.singleProjectLink{
+  padding-bottom:2em;
+}
+.singleProjectImg {
+  height: auto;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+}
+
+.projectItemImg {
+  height: 400px;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+}
+
+.projectItemImg-s{
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 12px;
+  display: block;
+}
+
+.gallery{
+  column-count: 3;
+  column-gap: 10px;
+  figure{
+    margin: 0;
+    // display: grid;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 10px;
+    break-inside: avoid;
+  }
+  figure > img{
+      grid-row: 1 / -1;
+      grid-column: 1;
+  }
+  img{
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+}
+
+.gallery-s{
+  column-count: 4;
+  column-gap: 10px;
+  figure{
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin-bottom: 10px;
+    break-inside: avoid;
+  }
+  figure > img{
+      grid-row: 1 / -1;
+      grid-column: 1;
+  }
+  img{
+    max-width: 100%;
+    display: block;
+  }
+}
+
+.carouselItems{
+  width: 400px;
+  height: 300px;
+  position: relative;
+  .carouselItemImgs{
+    height: 300px;
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+  }
+  @include desktopLg{
+    width: 600px;
+    height: 400px;
+    .carouselItemImgs{
+      height: 400px;
+    }
+  }
+}
+.carouselBtnBox{
+  position: absolute;
+  top: 33%;
+  width: 100%;
+  @include desktopLg{
+    top: 43%;
+  }
+  .carouselBtn{
+    background: transparent;
+  }
+  .fa-a-left{
+    width: 36px;
+    height: 36px;
+    color: $secondary-light;
+    position: absolute;
+    left: 0;
+  }
+  .fa-a-right{
+    width: 36px;
+    height: 36px;
+    color: $secondary-light;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.projectTitle{
+  font-family: $main-font;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.projectSubtitle{
+  font-family: $main-font;
+  font-weight: 300;
+  font-size: 1.1em;
+  text-align: center;
+}
+.projectTxt, .singleProjectTxt{
+  letter-spacing: -0.5px;
+  text-transform: initial;
+  max-width: 800px;
+}
+.singleProjectBox, .projectBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.projectTxtBox{
+  p{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

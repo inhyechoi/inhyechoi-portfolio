@@ -1,51 +1,6 @@
 [
     {
         "id": 0,
-        "title": "fitness",
-        "category": "project management",
-        "picture": "Images/Projects/Desktop/TeamK.png",
-        "pictures": [
-           
-        ],
-        "date": "2020-2021",
-        "shortDescription": "",
-        "url": "http://teamk-fitness.com/",
-        "url2":"",
-        "heading": [
-        ],
-        "description": [
-        ],
-        "desktop": [],
-        "mobile": [],
-        "resources": [
-            {
-              "name": "URL Parameters",
-              "id": "url-parameters",
-              "description": "URL parameters are parameters whose values are set dynamically in a page's URL. This allows a route to render the same component while passing that component the dynamic portion of the URL so it can change based off of it.",
-              "url": "https://ui.dev/react-router-v4-url-parameters/"
-            }
-          ]
-    },
-    {   
-        "id": 1,
-        "title": "afterparty",
-        "category": "ux / ui design",
-        "picture": "Images/Projects/Desktop/JJEntertainment.jpg",
-        "pictures": [
-        ],
-        "date": "Wed April 01 2020 11:39:00 GMT-0700 (PDT)",
-        "shortDescription": "web design agency lead development and project management",
-        "url": "https://jjent.netlify.app/",
-        "url2": "",
-        "heading": [
-        ],
-        "description": [
-        ],
-        "desktop": [],
-        "mobile": []
-    },
-    {
-        "id": 2,
         "title": "sitemax",
         "category": "ux / ui design, frontend development",
         "picture": "Images/Projects/Desktop/Sitemax.png",
@@ -100,6 +55,51 @@
             "5. The prototypes were created, I developed UI components including icons, buttons, input field and pagination etc.",
             "6. I developed a fully responsive website by building a custom template for global theme. The website release to production.",
             "Numorous testing and feedback from users is gathered. The process repeats between launch and testing."
+        ],
+        "desktop": [],
+        "mobile": []
+    },
+    {
+        "id": 1,
+        "title": "fitness",
+        "category": "project management",
+        "picture": "Images/Projects/Desktop/TeamK.png",
+        "pictures": [
+           
+        ],
+        "date": "2020-2021",
+        "shortDescription": "",
+        "url": "http://teamk-fitness.com/",
+        "url2":"",
+        "heading": [
+        ],
+        "description": [
+        ],
+        "desktop": [],
+        "mobile": [],
+        "resources": [
+            {
+              "name": "URL Parameters",
+              "id": "url-parameters",
+              "description": "URL parameters are parameters whose values are set dynamically in a page's URL. This allows a route to render the same component while passing that component the dynamic portion of the URL so it can change based off of it.",
+              "url": "https://ui.dev/react-router-v4-url-parameters/"
+            }
+          ]
+    },
+    {   
+        "id": 2,
+        "title": "afterparty",
+        "category": "ux / ui design",
+        "picture": "Images/Projects/Desktop/JJEntertainment.jpg",
+        "pictures": [
+        ],
+        "date": "Wed April 01 2020 11:39:00 GMT-0700 (PDT)",
+        "shortDescription": "web design agency lead development and project management",
+        "url": "https://jjent.netlify.app/",
+        "url2": "",
+        "heading": [
+        ],
+        "description": [
         ],
         "desktop": [],
         "mobile": []

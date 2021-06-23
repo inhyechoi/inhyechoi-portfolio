@@ -79,27 +79,24 @@
 }
 
 .carouselItems{
-  width: 400px;
-  height: 300px;
+  width: 100%;
   position: relative;
   .carouselItemImgs{
-    height: 300px;
+    height: auto;
     width: 100%;
     border-radius: 12px;
     display: block;
+    margin: 0 auto;
   }
   @include desktopLg{
     width: 600px;
-    height: 400px;
-    .carouselItemImgs{
-      height: 400px;
-    }
   }
 }
 .carouselBtnBox{
   position: absolute;
   top: 33%;
   width: 100%;
+  max-width: 600px;
   @include desktopLg{
     top: 43%;
   }
@@ -150,4 +147,13 @@
     padding-top: 5px;
     padding-bottom: 5px;
   }
+}
+
+.carousel{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.carousel__slider{
+  height: 300px;
+  border-radius: 12px;
 }

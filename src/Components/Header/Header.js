@@ -32,7 +32,7 @@ const Header = () => {
  <div className="header menuWrapper" style={{height: `100%`}}>
       <div className="logo-nav menuNav">
         <div className="logo-container menu">
-          <a href="#">
+          <a href="/">
             <Logo className="logo" />
           </a>
         </div>
@@ -46,27 +46,9 @@ const Header = () => {
           <li className="option" onClick={closeMobileMenu}>
             <Link to={'/experiment'} className="nav-link">experiment</Link>
           </li>
-          {/* <li className="option mobile-option" onClick={closeMobileMenu}>
-            <a href="#">SIGN-IN</a>
-          </li>
-          <li className="option mobile-option" onClick={closeMobileMenu}>
-            <a href="" className="sign-up">
-              darkmode
-            </a>
-          </li> */}
         </ul>
       </div>
       <DarkModeToggle />
-      {/* <ul className="signin-up">
-        <li className="sign-in" onClick={closeMobileMenu}>
-          <a href="#">SIGN-IN</a>
-        </li>
-        <li onClick={closeMobileMenu}>
-          <a href="" className="signup-btn">
-            SIGN-UP
-          </a>
-        </li>
-      </ul> */}
       <div className="mobile-menu" onClick={handleClick}>
         {click ? (
           <CloseMenu className="menu-icon" />

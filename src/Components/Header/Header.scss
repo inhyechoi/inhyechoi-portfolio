@@ -5,6 +5,7 @@ header{
 width: 100%;
 position: absolute;
 top: 0;
+z-index: 10;
 }
 .header {
     padding: 0px 10px;
@@ -173,7 +174,7 @@ header .menuWrapper .menuLine{
     top: 0;
     left: 0;
     animation: progress 1s linear;
-    z-index:9999;
+    z-index:10;
   }
   @keyframes progress {
     to {

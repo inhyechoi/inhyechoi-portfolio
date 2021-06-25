@@ -29,9 +29,9 @@ const Header = () => {
         <div className="closeBtn hover-target" style={{ display: "none" }}>
           <span className="arrow"></span>
         </div> */}
- <div className="header menuWrapper">
+ <div className="header menuWrapper" style={{height: `100%`}}>
       <div className="logo-nav menuNav">
-        <div className="logo-container">
+        <div className="logo-container menu">
           <a href="#">
             <Logo className="logo" />
           </a>
@@ -76,37 +76,6 @@ const Header = () => {
         
       </div>
     </div>
-
-
-        {/* <div className="logo-nav">
-        <div className="logo-container">
-          <a href="/">
-            <Logo className="logo" alt="frontend developer logo design web graphic"/>
-          </a>
-        </div>
-        </div>
-        <div className="menuWrapper" style={{height: `100%`}}>
-        <div className="menuNav">
-            <ul className={click ? "nav-options active" : "nav-options menu"}>
-            <li className="option" onClick={closeMobileMenu}>
-                <Link to={'/'} className="nav-link mask">about</Link>    
-            </li>
-            <li className="option" onClick={closeMobileMenu}>
-                <Link to={'/projects'} className="nav-link">projects</Link>
-            </li>
-            <li className="option" onClick={closeMobileMenu}>
-                <Link to={'/experiment'} className="nav-link">experiment</Link>
-            </li>
-            </ul>
-        </div>
-        </div>
-        <div className="mobile-menu" onClick={handleClick}>
-        {click ? (
-          <CloseMenu className="menu-icon" />
-        ) : (
-          <MenuIcon className="menu-icon" />
-        )}
-        </div> */}
 
         {/* <div className="menuWrapper"  style={{height: `100%`}}>
             <div className="menuNav">

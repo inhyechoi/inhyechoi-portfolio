@@ -160,7 +160,6 @@ const ProjectItem = () => {
             </div>
           );
         })}
-        <p className="projectSubtitle"></p>
         {projects.map((el)=>{
           return(
             <div key={el.id} >
@@ -199,7 +198,7 @@ const ProjectItem = () => {
         })}
         {projects.map((el)=>{
           return(
-            <div className="gallery-s" key={el.id} >
+            <div className="gallery-s" key={el.id} style={{paddingTop: "1em"}} >
               <figure>
                 <img className="projectItemsImg-s" src={'/' + el.pictures[19]} onError={e => e.target.style.display = 'none'}/>
               </figure>

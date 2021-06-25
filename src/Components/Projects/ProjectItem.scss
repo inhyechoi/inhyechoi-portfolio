@@ -138,14 +138,19 @@
   text-transform: initial;
   max-width: 800px;
 }
+.singleProjectTxt{
+  padding-bottom: 0 !important;
+}
 .singleProjectBox, .projectBox{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-bottom: 1em;
 }
 .projectTxtBox{
+  padding-top: 2em;
   p{
     padding-top: 5px;
     padding-bottom: 5px;

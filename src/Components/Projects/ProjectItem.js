@@ -97,9 +97,6 @@ const ProjectItem = () => {
                 <figure>
                   <img className="projectItemsImg-s" src={'/' + el.pictures[8]} onError={e => e.target.style.display = 'none'}/>
                 </figure>
-                <figure>
-                  <img className="projectItemsImg-s" src={'/' + el.pictures[9]} onError={e => e.target.style.display = 'none'}/>
-                </figure>
               </div>
             </div>
           );
@@ -143,8 +140,8 @@ const ProjectItem = () => {
                   </Slide>
                   </Slider>
                   <div className="carouselBtnBox">
-                    <ButtonBack className="carouselBtn"><FontAwesomeIcon class="fa fa-a-left" icon={faAngleLeft}/></ButtonBack>
-                    <ButtonNext className="carouselBtn"><FontAwesomeIcon class="fa fa-a-right" icon={faAngleRight}/></ButtonNext>
+                    <ButtonBack className="carouselBtn"><FontAwesomeIcon className="fa fa-a-left" icon={faAngleLeft}/></ButtonBack>
+                    <ButtonNext className="carouselBtn"><FontAwesomeIcon className="fa fa-a-right" icon={faAngleRight}/></ButtonNext>
                   </div>
                 </CarouselProvider>
               </div>
@@ -165,6 +162,9 @@ const ProjectItem = () => {
             <div key={el.id} >
               <p className="projectSubtitle">{el.heading[1]}</p>
               <div className="gallery">
+                <figure>
+                  <img className="projectItemsImg-s" src={'/' + el.pictures[9]} onError={e => e.target.style.display = 'none'}/>
+                </figure>
                 <figure>
                   <img className="projectItemsImg-s" src={'/' + el.pictures[10]} onError={e => e.target.style.display = 'none'}/> 
                 </figure>

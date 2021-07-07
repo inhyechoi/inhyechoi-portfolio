@@ -39,7 +39,7 @@ z-index: 10;
   .logo {
     height: 80px;
     width: 80px;
-    border-radius: 50%;
+    border-radius: 5px;
     @include tablet{
         width: 120px;
         height: 120px;
@@ -110,6 +110,8 @@ z-index: 10;
     .menu-icon {
       width: 45px;
       height: 45px;
+      background-color: #ffffff;
+      border-radius: 5px;
     }
     .option {
       display: flex;
@@ -133,7 +135,6 @@ z-index: 10;
     }
     .mobile-menu {
         display: block;
-        border: 1px solid white;
       }
   }
 

@@ -20,16 +20,13 @@ svg *{
 }
 
 .inhyeBg-g{
-    // animation: 4s linear 0s infinite normal none running rotateBack;
     animation: 9s linear 0s infinite normal none running rotateBack;
 }
 #inhyeBg .c-1{
-    // animation: 1s linear 0s infinite normal none running rotate;
     animation: 12s ease-in-out -3s infinite alternate none running blob_four;
     fill: $secondary-purple-dark;
 }
 #inhyeBg .c-2{
-    // animation: right 1s linear infinite;
     animation: 9s ease-in-out -3s infinite alternate none running blob_three;
     fill: $secondary-yellow;
 
@@ -99,7 +96,7 @@ svg *{
         top: -18%;
     }
     @include desktopLg{
-        right: -10%;
+        right: 0;
     }
 }
 
@@ -119,14 +116,9 @@ svg *{
         font-family: $main-alternate-font;
 
     }
-    @include mobile {
-        // transform: translate(-24%, 0);
-    }
 
     @include tablet {
         width: 375px;
-        // transform: translate(-20%, -80%);
-        // transform: translate(0, -10%);
 
         h1,h2 {
             font-size: 2em;

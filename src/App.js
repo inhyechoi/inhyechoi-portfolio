@@ -9,6 +9,7 @@ import DesignGuidePage from './Pages/DesignGuidePage.js';
 import NotFoundPage from './Pages/NotFoundPage.js';
 import Footer from './Components/Footer/Footer.js';
 import CursorFocus from './Components/CursorFocus/index.js';
+import ScrollToTop from './Components/ScrollTop/ScrollToTop.js';
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -35,6 +36,7 @@ const App = () => {
         <div id="outer-container" className="App" height="100%">
             <CursorFocus />
             <SocialMedia />
+            <ScrollToTop />
             <ScrollTop />
                 <Header />
                 <div className="middle">

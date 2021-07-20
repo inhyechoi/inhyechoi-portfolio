@@ -29,17 +29,20 @@ const DarkModeToggle = () => {
     }
 
     return (
-        <label className="switch">
-            <input
-                type="checkbox"
-                defaultChecked={isDark}
-                onChange={() => toggleThemeChange()}
-            />
-            <span className="slider round">
-                <span className="on">ON</span>
-                <span className="off">OFF</span>
-            </span> 
-        </label>
+        <div className="switchWrapper">
+            <span className="switchTitle">DARKMODE</span>
+            <label className="switch">
+                <input
+                    type="checkbox"
+                    defaultChecked={isDark}
+                    onChange={() => toggleThemeChange()}
+                />
+                <span className="slider round">
+                    <span className="on">ON</span>
+                    <span className="off">OFF</span>
+                </span> 
+            </label>
+        </div>
       )
 };
 

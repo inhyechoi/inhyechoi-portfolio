@@ -59,24 +59,6 @@ const Header = () => {
       </div>
     </div>
 
-        {/* <div className="menuWrapper"  style={{height: `100%`}}>
-            <div className="menuNav">
-            <div className="menu">
-                <p>
-                    <Link to={'/'} className="nav-link mask">about</Link>    
-                </p>
-                <p>
-                    <Link to={'/projects'} className="nav-link">projects</Link>
-                </p>
-                <p>
-                    <Link to={'/experiment'} className="nav-link">experiment</Link>
-                </p>
-                <p></p>
-                <div className="menuLine"></div>
-                <DarkModeToggle />
-            </div>
-            </div>
-        </div> */}
         <div className="progress"></div>
 
       </header>

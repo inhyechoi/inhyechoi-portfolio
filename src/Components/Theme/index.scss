@@ -1,4 +1,5 @@
 @import '../../variables.scss';
+@import '../../mixins.scss';
 
 /* credit to Rohit kumar singh*/
 .switch {
@@ -78,8 +79,6 @@
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
-    font-size: 10px;
-    font-family: Verdana, sans-serif;
 }
 
 input:checked+ .slider .on {
@@ -88,4 +87,16 @@ input:checked+ .slider .on {
 
 input:checked + .slider .off {
     display: none;
+}
+
+.switchTitle{
+    padding-bottom: 2px;
+}
+
+.switchWrapper{
+    font-size: 10px;
+    font-family: Verdana, sans-serif;
+    @include tablet{
+        margin-bottom: 13px;
+    }
 }

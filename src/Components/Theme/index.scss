@@ -96,6 +96,8 @@ input:checked + .slider .off {
 .switchWrapper{
     font-size: 10px;
     font-family: Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
     @include tablet{
         margin-bottom: 13px;
     }

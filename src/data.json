@@ -187,7 +187,7 @@
         "shortDescription": "realestate realtor company graphic design and web development",
         "url": "https://changseopahn.com/",
         "heading": [
-            "The final design - implemented in Photoshop, illustrator and Wordpress",
+            "",
             ""
         ],
         "description": [
@@ -209,6 +209,37 @@
         "category": "graphic, ux / ui design, web development",
         "picture": "Images/Projects/Desktop/Pokerrito.jpg",
         "pictures": [
+            "Images/Projects/Desktop/poke_main.jpg",
+            "Images/Projects/Desktop/pr-brading-web.png",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Images/Projects/Desktop/final/",
+            "Images/Projects/Desktop/final/",
+            "Images/Projects/Desktop/final/",
+            "Images/Projects/Desktop/final/",
+            "Images/Projects/Desktop/final/",
+            "Images/Projects/Desktop/final/",
+            "Images/Projects/Desktop/final/",
+            "Images/Projects/Desktop/research/poke-research1.jpg",
+            "Images/Projects/Desktop/research/poke-research2.png",
+            "Images/Projects/Desktop/research/poke-research3.png",
+            "Images/Projects/Desktop/research/",
+            "Images/Projects/Desktop/research/"
         ],
         "date": "2016",
         "shortDescription": "restaurant company company graphic design and web development",
@@ -218,6 +249,10 @@
             ""
         ],
         "description": [
+            "Build a brand and design/develop a responsive website for client. I was the sole Designer & Developer for the external creative team. The project was delievered mostly remote.",
+            "",
+            "The initial design - created in Wordpress V. 4.0.17 (theme)",
+            "The final design - implemented in Photoshop and Wordpress (custom theme)"
         ],
         "desktop": [],
         "mobile": []

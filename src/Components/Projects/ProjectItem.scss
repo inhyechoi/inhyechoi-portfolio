@@ -40,6 +40,8 @@
 .gallery{
   column-count: 3;
   column-gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   figure{
     margin: 0;
     // display: grid;
@@ -61,6 +63,8 @@
 .gallery-s{
   column-count: 4;
   column-gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   figure{
     margin: 0;
     display: grid;
@@ -141,6 +145,10 @@
 }
 .singleProjectTxt{
   padding-bottom: 0 !important;
+}
+.singleProjectBox{
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .singleProjectBox, .projectBox{
   display: flex;

@@ -95,7 +95,7 @@
             "Images/Projects/Desktop/research/tk-research2.png",
             "Images/Projects/Desktop/research/tk-research3.png",
             "Images/Projects/Desktop/research/tk-research4.png",
-            ""
+            "Images/Projects/Desktop/research/tk-research5.png"
         ],
         "date": "2020-2021",
         "shortDescription": "Website of Fitness Company",
@@ -286,7 +286,7 @@
         "picture": "Images/Projects/Desktop/Inhye.png",
         "pictures": [
             "Images/Projects/Desktop/ih-Brand-Guideline.png",
-            "Images/Projects/Desktop/ih-Brand-Guideline.png",
+            "Images/Projects/Desktop/ih_homeanimate.gif",
             "Images/Projects/Desktop/initial/Inhye.png",
             "Images/Projects/Desktop/initial/ih-logo-alternative.png",
             "Images/Projects/Desktop/initial/ih-web-icon.png",
@@ -311,11 +311,11 @@
             "Images/Projects/Desktop/final/dark-mobile-ih-projects.png",
             "Images/Projects/Desktop/final/dark-mobile-ih-designguide.png",
             "Images/Projects/Desktop/final/mobile-ih-menu.png",
+            "Images/Projects/Desktop/research/ih-research6.png",
             "Images/Projects/Desktop/research/ih-research1.png",
             "Images/Projects/Desktop/research/ih-research2.png",
             "Images/Projects/Desktop/research/ih-research3.png",
-            "Images/Projects/Desktop/research/ih-research4.png",
-            "Images/Projects/Desktop/research/ih-research5.png"
+            "Images/Projects/Desktop/research/ih-research4.png"
         ],
         "date": "2020-2021",
         "shortDescription": "React app of personal branding.",

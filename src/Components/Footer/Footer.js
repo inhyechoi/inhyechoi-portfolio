@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Pdf from '../../Assets/Files/Inhye_Choi_Resume.pdf';
 
 const Footer = () => {
 
@@ -9,7 +8,6 @@ const Footer = () => {
         <div className="footerContainer">
             <div className="copyright">
                 <div className="aboutBtnWrapper">
-                    <a href={ Pdf } className="resumeBtn" download="Inhye_Choi_resume.pdf">Download Resume</a>
                 </div>
                 <p>© 2020 Inhye. All Rights Reserved.</p>
             </div>

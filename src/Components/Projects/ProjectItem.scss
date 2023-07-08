@@ -38,10 +38,13 @@
 }
 
 .gallery{
-  column-count: 3;
+  column-count: 1;
   column-gap: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  @include desktopLg{
+    column-count: 3;
+  }
   figure{
     margin: 0;
     // display: grid;

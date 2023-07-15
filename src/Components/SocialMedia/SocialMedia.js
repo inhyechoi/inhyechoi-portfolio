@@ -15,7 +15,7 @@ const SocialMedia = () => {
             <a href='https://github.com/inhyechoi'>
                 <FontAwesomeIcon className="fa fa-gh" icon={faGithubAlt} />
             </a>
-            <a href="mailto:inhyechoi0404@gmail.com">
+            <a href="mailto:iciw523@gmail.com">
                 <FontAwesomeIcon className="fa fa-e" icon={faEnvelope} />
             </a>
         </div>

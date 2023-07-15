@@ -13,7 +13,7 @@ const Footer = () => {
             </div>
             <div className="guideBtn">
                 <Link to={'/designguide'}>design guide</Link>
-                <a href="mailto:inhyechoi0404@gmail.com">contact me</a>
+                <a href="mailto:iciw523@gmail.com">contact me</a>
         </div>
         </div>
       </footer>

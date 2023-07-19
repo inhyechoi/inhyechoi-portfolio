@@ -4,6 +4,9 @@
 .about{
     width:100%;
     position: relative;
+    svg *{
+        transform-origin: 50%;
+    }
 }
 
 /*blob animation*/
@@ -13,10 +16,6 @@
 }
 .inhyeBgWrapper{
     filter: url("#gooey-react");
-}
-
-svg *{
-    transform-origin: 50%;
 }
 
 .inhyeBg-g{
@@ -114,7 +113,6 @@ svg *{
         font-size: 2em;
         text-transform: uppercase;
         font-family: $main-alternate-font;
-
     }
 
     @include tablet {
@@ -144,22 +142,20 @@ svg *{
           }
     }
     h1 span{
-        animation: titleAnimation 3s ease;
+        animation: titleAnimation 4s ease;
     }
     h2 span{
         animation: titleAnimation 3s ease;
     }
 
     h1 span {
-        animation-delay: 0.6s;
+        animation-delay: 0.4s;
         &:first-child {
-            animation-delay: 0.7s;
-
+            animation-delay: 0.5s;
         }
-
         &:last-child {
             color: $secondary-orange;
-            animation-delay: 0.5s;
+            animation-delay: 0.3s;
         }
     }
     h2{ 
@@ -170,11 +166,12 @@ svg *{
       
           &:first-child{
             animation-delay: 4.2s;
-    
           }
-      
+          &:nth-child(2){
+              color: $secondary-orange;
+          }
           &:last-child{
-            color: $secondary-orange;
+            // color: $secondary-orange;
             animation-delay: 4s;
           }
         }
